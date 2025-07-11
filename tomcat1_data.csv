@@ -1,0 +1,437 @@
+Participant,Step,Timestamp,Puzzle,Relations,Correct relations,Incorrect relations
+s01,1,2:43,Cat,(tovi (EdgeFn svb svc) (EdgeFn ovb ovc) svc ovb) (unattached gt) (unattached p) (unattached rt) (unattached bt),0,1
+s01,2,3:16,Cat,(tovi (EdgeFn svb svc) (EdgeFn rvb rvc) svc rvc) (teq (EdgeFn svc svd) (EdgeFn bva bvb)) (unattached gt) (unattached p) (unattached ot),0,2
+s01,3,3:26,Cat,(tovi (EdgeFn svb svc) (EdgeFn rvb rvc) svc rvc) (teq (EdgeFn svc svd) (EdgeFn bva bvb)) (vc sva ovc) (unattached gt) (unattached p),1,2
+s01,4,3:36,Cat,(unattached rt) (unattached bt) (unattached ot) (unattached gt) (unattached p),0,0
+s01,5,4:04,Cat,(tovi (EdgeFn svb svc) (EdgeFn ovb ovc) svc ovb) (tovi (EdgeFn svc svd) (EdgeFn gva gvb) svc gvb) (vc ovb gvb) (unattached rt) (unattached p) (unattached bt),0,3
+s01,6,4:09,Cat,(tovi (EdgeFn svb svc) (EdgeFn ovb ovc) svc ovb) (tovi (EdgeFn svc svd) (EdgeFn gva gvb) svc gvb) (vc ovb gvb) (vc sva rvc) (unattached p) (unattached bt),1,3
+s01,7,4:14,Cat,(tovi (EdgeFn svb svc) (EdgeFn ovb ovc) svc ovb) (tovi (EdgeFn svc svd) (EdgeFn gva gvb) svc gvb) (vc ovb gvb) (vc sva rva) (unattached p) (unattached bt),0,4
+s01,8,4:22,Cat,(tovi (EdgeFn svb svc) (EdgeFn ovb ovc) svc ovb) (tovi (EdgeFn svc svd) (EdgeFn gva gvb) svc gvb) (vc ovb gvb) (vc sva rva) (tovi (EdgeFn bva bvc) (EdgeFn rva rvc) bvd rvf) (vc sva bvc) (unattached p),0,6
+s01,9,4:29,Cat,(tovi (EdgeFn svb svc) (EdgeFn ovb ovc) svc ovb) (tovi (EdgeFn svc svd) (EdgeFn gva gvb) svc gvb) (vc ovb gvb) (vc sva rva) (tovi (EdgeFn bva bvc) (EdgeFn rva rvc) bva rvc) (vc sva bvc) (vc pva1 rvc),0,7
+s01,10,5:10,Cat,(unattached rt) (unattached bt) (unattached ot) (unattached s) (unattached p) (unattached pt),0,0
+s01,11,5:37,Cat,(tovi (EdgeFn svc svd) (EdgeFn rva rvb) svc rvb) (teq (EdgeFn svb svc) (EdgeFn bvb bvc)) (unattached ot) (to (EdgeFn pvb1 pvc1) (EdgeFn gva gvb) pvb1 gvb),1,1
+s01,12,5:49,Cat,(tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (unattached ot) (unattached p) (unattached bt) (unattached s),1,0
+s01,13,5:54,Cat,(tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (tovi (EdgeFn ova ovc) (EdgeFn gvb gvc) ova gvb) (unattached p) (unattached bt) (unattached s),2,0
+s01,14,5:59,Cat,(tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (unattached ot) (vc pva1 gvb) (unattached bt) (unattached s),1,1
+s01,15,6:11,Cat,(tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (tovi (EdgeFn ova ovc) (EdgeFn gvb gvc) ova gvb) (vc pva1 gvb) (unattached bt) (unattached s),1,2
+s01,16,6:18,Cat,(tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (vc pva1 gvb) (unattached bt) (vec sva (EdgeFn rvb rvc)),2,2
+s01,17,6:30,Cat,(tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (vc pva1 ovb) (unattached bt) (vec sva (EdgeFn rvb rvc)),3,1
+s01,18,6:46,Cat,(tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (vc pva1 ovb) (teq (EdgeFn svb svc) (EdgeFn bvb bvc)) (vec sva (EdgeFn rvb rvc)),4,1
+s01,19,7:02,Cat,(tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (vc pva1 ovb) (teq (EdgeFn svb svc) (EdgeFn bvb bvc)) (vc sva rvc) (vc sva gva),6,0
+s01,20,7:43,Cat,(tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (vc pva1 ovb) (teq (EdgeFn svc svd) (EdgeFn pva pvb)) (teq (EdgeFn svb svc) (EdgeFn bvb bvc)) (vc sva rvc) (vc sva gva) (vc bvb pvb),8,0
+s02,1,3:41,Rabbit,(vc sva pvc1) (unattached bt) (unattached ot) (unattached gt) (unattached rt),1,0
+s02,2,3:48,Rabbit,(vc sva pvc1) (vc svd gva) (unattached bt) (unattached ot) (unattached rt),2,0
+s02,3,3:55,Rabbit,(vc sva pvc1) (vc svd gva) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (unattached bt) (unattached rt),3,0
+s02,4,4:00,Rabbit,(vc sva pvc1) (vc svd gva) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (to (EdgeFn bva bvc) (EdgeFn gva gvb) bva gvb) (vec (EdgeFn bva bvb) ovc) (unattached rt),5,0
+s02,5,4:04,Rabbit,(vc sva pvc1) (vc svd gva) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (to (EdgeFn bva bvc) (EdgeFn gva gvb) bva gvb) (vec (EdgeFn bva bvb) ovc) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova),6,0
+s02,6,4:49,Rabbit,(vc sva pvc1) (vc svd gva) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (to (EdgeFn bva bvc) (EdgeFn gva gvb) bva gvb) (vec (EdgeFn bva bvb) ovc) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (teq (EdgeFn pva pvc) (EdgeFn rva rvb)) (vec pva (EdgeFn ova ovc)),8,0
+s03,1,6:16,Cat,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (unattached bt) (unattached rt) (unattached s) (unattached p),1,0
+s03,2,6:25,Cat,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (unattached bt) (unattached s) (unattached p),2,0
+s03,3,6:28,Cat,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (vc sva gva) (vc sva rvc) (unattached bt) (unattached p),4,0
+s03,4,6:32,Cat,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (vc sva gva) (vc sva rvc) (teq (EdgeFn svc svd) (EdgeFn bva bvb)) (unattached p),5,0
+s03,5,6:53,Cat,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (vc sva gva) (vc sva rvc) (teq (EdgeFn svc svd) (EdgeFn bva bvb)) (vc pvc2 ovb),6,0
+s03,6,7:46,Cat,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (vc sva gva) (vc sva rvc) (teq (EdgeFn svc svd) (EdgeFn bva bvb)) (vc pvc2 ovb) (teq (EdgeFn svb svc) (EdgeFn pvb pvc)) (vc bvb pvb),8,0
+s04,1,3:58,Rabbit,(tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (unattached s) (unattached bt) (unattached ot) (unattached p),1,0
+s04,2,4:26,Rabbit,(tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (teq (EdgeFn bva bvc) (EdgeFn rvb rvc)) (unattached s) (unattached ot) (unattached p),1,1
+s04,3,5:04,Rabbit,(vc rvb gvb) (unattached bt) (unattached s) (vec gva (EdgeFn ova ovc)) (unattached p),0,3
+s04,4,5:25,Rabbit,(vec gvc (EdgeFn ova ovc)) (unattached bt) (unattached s) (unattached p),0,1
+s04,5,5:35,Rabbit,(tei (EdgeFn gvb gvc) (EdgeFn ova ovc)) (unattached rt) (unattached bt) (unattached ot) (unattached s) (unattached p),0,1
+s04,6,5:43,Rabbit,(teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (unattached rt) (unattached bt) (unattached s),1,0
+s04,7,5:47,Rabbit,(teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (vc svd ova) (unattached rt) (unattached bt),2,0
+s04,8,5:50,Rabbit,(teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (vc svd ova) (vc pvc1 sva) (unattached rt) (unattached bt),3,0
+s04,9,6:44,Rabbit,(teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (vc svd ova) (vc pvc1 sva) (tovi (EdgeFn rva rvb) (EdgeFn gva gvc) rva gva) (unattached bt),3,1
+s04,10,6:54,Rabbit,(teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (vc svd ova) (vc pvc1 sva) (vc rvc gva) (unattached bt),3,1
+s04,11,7:05,Rabbit,(teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (vc svd ova) (vc pvc1 sva) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (unattached bt),4,0
+s04,12,7:13,Rabbit,(teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (vc svd ova) (vc pvc1 sva) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (teq (EdgeFn bva bvc) (EdgeFn rva rvb)) (vec bva (EdgeFn gva gvc)),7,0
+s04,13,7:38,Rabbit,(teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (vc svd ova) (vc pvc1 sva) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (teq (EdgeFn bva bvc) (EdgeFn rva rvb)) (to (EdgeFn pva pvc) (EdgeFn ova ovb) pva ovb) (vec gvc (EdgeFn pva pvc)),8,0
+s05,1,3:13,Cat,(vc pva1 ovb) (vc sva ovc) (unattached rt) (unattached bt) (unattached gt),1,1
+s05,2,3:20,Cat,(vc pva1 ovb) (vc sva ovc) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (unattached rt) (unattached bt),2,1
+s05,3,3:25,Cat,(vc pva1 ovb) (vc sva ovc) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tei (EdgeFn rva rvc) (EdgeFn gva gvc)) (unattached bt),2,2
+s05,4,3:29,Cat,(vc pva1 ovb) (vc sva gva) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tei (EdgeFn rva rvc) (EdgeFn gva gvc)) (unattached bt),3,1
+s05,5,3:38,Cat,(vc pva1 ovb) (vec gva (EdgeFn sva svd)) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tei (EdgeFn rva rvc) (EdgeFn gva gvc)) (tovi (EdgeFn sva svb) (EdgeFn bva bvc) sva bva),2,3
+s05,6,3:41,Cat,(vc pva1 ovb) (vec gva (EdgeFn sva svd)) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tei (EdgeFn rva rvc) (EdgeFn gva gvc)) (tovi (EdgeFn sva svb) (EdgeFn bva bvc) svb bva),2,3
+s05,7,4:18,Cat,(vc pva1 ovb) (vec gva (EdgeFn sva svd)) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tei (EdgeFn rva rvc) (EdgeFn gva gvc)) (teq (EdgeFn svc svd) (EdgeFn bva bvb)) (unattached pt),3,2
+s05,8,5:08,Cat,(vc pva1 ovb) (vec gva (EdgeFn sva svd)) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tei (EdgeFn rva rvc) (EdgeFn gva gvc)) (teq (EdgeFn svc svd) (EdgeFn bva bvb)) (teq (EdgeFn sva svb) (EdgeFn pva pvb)),3,3
+s05,9,5:35,Cat,(vc pva1 ovb) (vec gva (EdgeFn sva svd)) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tei (EdgeFn rva rvc) (EdgeFn gva gvc)) (teq (EdgeFn svc svd) (EdgeFn bva bvb)) (unattached pt),3,2
+s05,10,5:42,Cat,(vc pva1 ovb) (vec gva (EdgeFn sva svd)) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tei (EdgeFn rva rvc) (EdgeFn gva gvc)) (teq (EdgeFn svc svd) (EdgeFn bva bvb)) (teq (EdgeFn sva svb) (EdgeFn pvb pvc)),3,3
+s05,11,6:06,Cat,(vc pva1 ovb) (vec gva (EdgeFn sva svd)) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tei (EdgeFn rva rvc) (EdgeFn gva gvc)) (teq (EdgeFn svc svd) (EdgeFn bva bvb)) (to (EdgeFn sva svb) (EdgeFn pvb pvc) svb pvc),3,3
+s05,12,6:30,Cat,(to (EdgeFn pva1 pvd1) (EdgeFn ovb ovc) pva1 ovb) (vec gva (EdgeFn sva svd)) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tei (EdgeFn rva rvc) (EdgeFn gva gvc)) (tovi (EdgeFn svc svd) (EdgeFn bva bvc) svb bvc) (unattached pt),2,3
+s05,13,6:43,Cat,(vc pva1 ovb) (vec gva (EdgeFn sva svd)) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tei (EdgeFn rva rvc) (EdgeFn gva gvc)) (teq (EdgeFn svc svd) (EdgeFn bva bvb)) (unattached pt),3,2
+s05,14,7:24,Cat,(vc pva1 ovb) (vec gva (EdgeFn sva svd)) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tei (EdgeFn rva rvc) (EdgeFn gva gvc)) (vc svd bvb) (vec svb (EdgeFn pva pvc)),2,4
+s05,15,7:29,Cat,(vc pva1 ovb) (vec gva (EdgeFn sva svd)) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tei (EdgeFn rva rvc) (EdgeFn gva gvc)) (to (EdgeFn svc svd) (EdgeFn bva bvc) svc bvc) (unattached s),2,4
+s05,16,7:44,Cat,(to (EdgeFn pva1 pvd1) (EdgeFn ovb ovc) pva1 ovb) (vc sva gva) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tei (EdgeFn rva rvc) (EdgeFn gva gvc)) (tei (EdgeFn svc svd) (EdgeFn bva bvc)) (unattached pt),2,2
+s05,17,7:47,Cat,(vc pva1 ovb) (vec gva (EdgeFn sva svd)) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tei (EdgeFn rva rvc) (EdgeFn gva gvc)) (teq (EdgeFn svc svd) (EdgeFn bvb bvc)) (unattached s),2,3
+s05,18,7:57,Cat,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tei (EdgeFn rva rvc) (EdgeFn gva gvc)) (vec bvb (EdgeFn svc svd)) (vec pvb (EdgeFn sva svb)) (vc pva1 ovb) (vec gva (EdgeFn sva svd)) (to (EdgeFn pva1 pvd1) (EdgeFn ovb ovc) pva1 ovb) (vc sva gva) (vec pvc (EdgeFn rvb rvc)),3,5
+s05,19,8:25,Cat,(vc pva1 ovb) (vc sva gva) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tei (EdgeFn rva rvc) (EdgeFn gva gvc)) (vec bvb (EdgeFn svc svd)) (vec pvb (EdgeFn sva svb)),3,3
+s05,20,8:38,Cat,(vc sva gva) (tei (EdgeFn gvb gvc) (EdgeFn ova ovc)) (vec bvb (EdgeFn svc svd)) (vc pva1 ovb) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (vc sva rvc) (vec pvb (EdgeFn sva svb)) (to (EdgeFn pva1 pvd1) (EdgeFn ovb ovc) pva1 ovb) (tei (EdgeFn rva rvc) (EdgeFn gva gvc)) (unattached p),4,5
+s05,21,8:54,Cat,(vc pva1 ovb) (vec gva (EdgeFn sva svd)) (tei (EdgeFn gvb gvc) (EdgeFn ova ovc)) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (vec rvc (EdgeFn sva svd)) (vc svd bva) (vc svc pvc) (vc bvb pvb),2,6
+s05,22,9:06,Cat,(to (EdgeFn pva1 pvd1) (EdgeFn ovb ovc) pva1 ovb) (vec gva (EdgeFn sva svd)) (vec (EdgeFn sva svd) rvc) (tei (EdgeFn gvb gvc) (EdgeFn ova ovc)) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (vc svb bva) (vc svb pvc) (to (EdgeFn bvb bvc) (EdgeFn pvb pvc) bvb pvb),2,6
+s06,1,4:31,Rabbit,(tei (EdgeFn sva svb) (EdgeFn bva bvc)) (unattached ot) (unattached p) (unattached rt) (unattached bt),0,1
+s06,2,4:58,Rabbit,(tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (tei (EdgeFn sva svb) (EdgeFn bva bvc)) (unattached ot) (unattached p),1,1
+s06,3,5:04,Rabbit,(tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (tei (EdgeFn sva svb) (EdgeFn bva bvc)) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (unattached p),2,1
+s06,4,5:12,Rabbit,(tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (vc svd ova) (unattached bt) (unattached p),3,0
+s06,5,5:17,Rabbit,(tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (vc svd ova) (unattached bt) (vc pvc1 sva),4,0
+s06,6,5:24,Rabbit,(tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (vc svd ova) (vc pvc1 sva) (to (EdgeFn bva bvc) (EdgeFn ova ovb) bva ovb) (vec gvc (EdgeFn bva bvc)) (unattached pt),6,0
+s06,7,6:16,Rabbit,(tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (vc svd ova) (vc pvc1 sva) (to (EdgeFn bva bvc) (EdgeFn ova ovb) bva ovb) (vec gvc (EdgeFn bva bvc)) (teq (EdgeFn pva pvc) (EdgeFn rva rvb)) (vec pva (EdgeFn gva gvc)),8,0
+s08,1,3:02,Rabbit,(to (EdgeFn svc svd) (EdgeFn gvb gvc) svc gvb) (unattached rt) (unattached bt) (unattached p),0,1
+s08,2,3:08,Rabbit,(teq (EdgeFn rva rvc) (EdgeFn ovb ovc)) (unattached bt) (unattached p) (to (EdgeFn svc svd) (EdgeFn gvb gvc) svc gvb),0,2
+s08,3,3:11,Rabbit,(teq (EdgeFn rva rvc) (EdgeFn ovb ovc)) (unattached s) (unattached bt) (unattached gt) (unattached p),0,1
+s08,4,3:18,Rabbit,(unattached s) (unattached bt) (unattached gt) (unattached p) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvb ova),1,0
+s08,5,3:26,Rabbit,(teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (unattached s) (unattached bt) (unattached p) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvb ova),2,0
+s08,6,3:34,Rabbit,(teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (to (EdgeFn bva bvc) (EdgeFn gva gvb) bva gvb) (vec ovc (EdgeFn bva bvc)) (unattached s) (unattached p) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvb ova),4,0
+s08,7,3:40,Rabbit,(teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (to (EdgeFn bva bvc) (EdgeFn gva gvb) bva gvb) (vec ovc (EdgeFn bva bvc)) (vc svd gva) (unattached p) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvb ova),5,0
+s08,8,3:42,Rabbit,(teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (to (EdgeFn bva bvc) (EdgeFn gva gvb) bva gvb) (vec ovc (EdgeFn bva bvc)) (vc svd gva) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvb ova) (vc pvc1 sva),6,0
+s08,9,5:06,Rabbit,(teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (to (EdgeFn bva bvc) (EdgeFn gva gvb) bva gvb) (vec ovc (EdgeFn bva bvc)) (vc svd gva) (teq (EdgeFn pva pvc) (EdgeFn rva rvb)) (vec pva (EdgeFn ova ovc)) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvb ova) (vc pvc1 sva),8,0
+s09,1,7:09,Cat,(vc ovb gvb) (unattached s) (unattached rt) (unattached bt) (unattached p),0,1
+s09,2,7:12,Cat,(vc ovb gvb) (tovi (EdgeFn sva svb) (EdgeFn gvb gvc) svb gvb) (tovi (EdgeFn svb svc) (EdgeFn ova ovb) svb ovb) (unattached rt) (unattached bt) (unattached p),0,3
+s09,3,7:24,Cat,(unattached rt) (unattached bt) (unattached ot) (unattached s) (unattached p) (unattached pt),0,0
+s09,4,8:29,Cat,(teq (EdgeFn svb svc) (EdgeFn pva pvb)) (unattached rt) (unattached bt) (unattached ot) (unattached p),1,0
+s09,5,8:50,Cat,(teq (EdgeFn svb svc) (EdgeFn pva pvb)) (teq (EdgeFn sva svb) (EdgeFn bvb bvc)) (vc bvb pvb) (unattached rt) (unattached ot) (unattached p),3,0
+s09,6,9:10,Cat,(teq (EdgeFn svb svc) (EdgeFn pva pvb)) (teq (EdgeFn sva svb) (EdgeFn bvb bvc)) (vc bvb pvb) (unattached rt) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (unattached p),3,1
+s09,7,9:16,Cat,(teq (EdgeFn svb svc) (EdgeFn pva pvb)) (teq (EdgeFn sva svb) (EdgeFn bvb bvc)) (vc bvb pvb) (unattached rt) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (vc svd gva) (unattached p),4,1
+s09,8,9:21,Cat,(teq (EdgeFn svb svc) (EdgeFn pva pvb)) (teq (EdgeFn sva svb) (EdgeFn bvb bvc)) (vc bvb pvb) (unattached rt) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (vc svd gva) (vc pvc2 ova),4,2
+s09,9,9:27,Cat,(teq (EdgeFn svb svc) (EdgeFn pva pvb)) (teq (EdgeFn sva svb) (EdgeFn bvb bvc)) (vc bvb pvb) (tei (EdgeFn rva rvc) (EdgeFn gva gvc)) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (vc svd gva) (vc pvc2 ova),4,3
+s09,10,9:42,Cat,(teq (EdgeFn svb svc) (EdgeFn pva pvb)) (teq (EdgeFn sva svb) (EdgeFn bvb bvc)) (vc bvb pvb) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (vc svd rvc) (teq (EdgeFn bvb bvc) (EdgeFn ovb ovc)) (vc svd gva) (vc pvc2 ova),6,2
+s09,11,9:51,Cat,(teq (EdgeFn svb svc) (EdgeFn pva pvb)) (teq (EdgeFn sva svb) (EdgeFn bvb bvc)) (vc bvb pvb) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (vc svd rvc) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (vc svd gva) (vc pvc2 ova),8,0
+s10,1,4:34,Rabbit,(vc sva pvc1) (unattached ot) (unattached bt) (unattached rt) (unattached gt),1,0
+s10,2,4:42,Rabbit,(vc sva pvc1) (vc svd ova) (unattached bt) (unattached rt) (unattached gt),2,0
+s10,3,5:01,Rabbit,(vc sva pvc1) (vc svd ova) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (unattached bt) (unattached rt),3,0
+s10,4,5:14,Rabbit,(vc sva pvc1) (vc svd ova) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (unattached bt),4,0
+s10,5,5:20,Rabbit,(vc sva pvc1) (vc svd ova) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (unattached bt) (unattached rt),3,0
+s10,6,5:33,Rabbit,(vc sva pvc1) (vc svd ova) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (unattached bt),4,0
+s10,7,5:41,Rabbit,(vc sva pvc1) (vc svd ova) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (teq (EdgeFn bva bvc) (EdgeFn rva rvb)) (vec bva (EdgeFn gva gvc)),6,0
+s10,8,6:37,Rabbit,(vc sva pvc1) (vc svd ova) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (teq (EdgeFn bva bvc) (EdgeFn rva rvb)) (vec bva (EdgeFn gva gvc)) (to (EdgeFn pva pvc) (EdgeFn ova ovb) pva ovb) (vec gvc (EdgeFn pva pvc)),8,0
+s11,1,9:23,Cat,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (unattached s) (unattached rt) (unattached bt) (unattached p),1,0
+s11,2,9:27,Cat,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (vc pvc1 ovb) (unattached s) (unattached rt) (unattached bt),2,0
+s11,3,9:31,Cat,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (vc pvc1 ovb) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (unattached s) (unattached bt),3,0
+s11,4,9:35,Cat,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (vc pvc1 ovb) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (vc svd gva) (vc svd rvc) (unattached bt),5,0
+s11,5,9:40,Cat,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (vc pvc1 ovb) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (vc svd gva) (vc svd rvc) (teq (EdgeFn sva svb) (EdgeFn bva bvb)),5,1
+s11,6,10:07,Cat,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (vc pvc1 ovb) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (vc svd gva) (vc svd rvc) (unattached bt),5,0
+s11,7,10:28,Cat,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (vc pvc1 ovb) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (vc svd gva) (vc svd rvc) (teq (EdgeFn svb svc) (EdgeFn pva pvb)) (unattached bt),6,0
+s11,8,10:50,Cat,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (vc pvc1 ovb) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (vc svd gva) (vc svd rvc) (teq (EdgeFn svb svc) (EdgeFn pva pvb)) (teq (EdgeFn sva svb) (EdgeFn bvb bvc)) (vc bvb pvb),8,0
+s12,1,2:58,Rabbit,(vc svd gva) (unattached ot) (unattached rt) (unattached p) (unattached bt),1,0
+s12,2,3:02,Rabbit,(vc svd gva) (vc pvc1 sva) (unattached ot) (unattached rt) (unattached bt),2,0
+s12,3,3:08,Rabbit,(vc svd gva) (vc pvc1 sva) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (unattached rt) (unattached bt),3,0
+s12,4,3:18,Rabbit,(vc svd gva) (vc pvc1 sva) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (to (EdgeFn bva bvc) (EdgeFn gva gvb) bva gvb) (vec ovc (EdgeFn bva bvc)) (unattached rt),5,0
+s12,5,3:29,Rabbit,(vc svd gva) (vc pvc1 sva) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (to (EdgeFn bva bvc) (EdgeFn gva gvb) bva gvb) (vec ovc (EdgeFn bva bvc)) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (unattached pt),6,0
+s12,6,4:19,Rabbit,(vc svd gva) (vc pvc1 sva) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (to (EdgeFn bva bvc) (EdgeFn gva gvb) bva gvb) (vec ovc (EdgeFn bva bvc)) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (teq (EdgeFn pva pvc) (EdgeFn rva rvb)) (vec pva (EdgeFn ova ovc)),8,0
+s13,1,3:44,Rabbit,(vec ova (EdgeFn sva svd)) (unattached gt) (unattached p) (unattached rt) (unattached bt),0,1
+s13,2,3:50,Rabbit,(vec ova (EdgeFn sva svd)) (vc pvc1 svb) (unattached gt) (unattached rt) (unattached bt),1,1
+s13,3,3:59,Rabbit,(vec ova (EdgeFn sva svd)) (vc pvc1 svb) (to (EdgeFn bva bvc) (EdgeFn ova ovb) bva ovb) (unattached gt) (unattached rt),2,1
+s13,4,4:13,Rabbit,(vec ova (EdgeFn sva svd)) (vc pvc1 svb) (vec ovb (EdgeFn bva bvc)) (vec gva (EdgeFn bva bvc)) (tovi (EdgeFn ovb ovc) (EdgeFn gva gvc) ovb gva) (unattached rt),2,3
+s13,5,5:20,Rabbit,(vec ova (EdgeFn sva svd)) (vc pvc1 svb) (vec ovb (EdgeFn bva bvc)) (tovi (EdgeFn ovb ovc) (EdgeFn gva gvc) ovb gva) (tovi (EdgeFn rvb rvc) (EdgeFn gva gvb) rvb gvb),1,4
+s13,6,5:27,Rabbit,(vec ova (EdgeFn sva svd)) (vc pvc1 svb) (vec ovb (EdgeFn bva bvc)) (tovi (EdgeFn ovb ovc) (EdgeFn gva gvc) ovb gva) (tovi (EdgeFn rva rvb) (EdgeFn gva gvb) rva gvb),1,4
+s13,7,6:10,Rabbit,(vec gva (EdgeFn sva svd)) (vc pvc1 svb) (to (EdgeFn bva bvc) (EdgeFn gva gvb) bva gvb) (unattached ot) (unattached rt),1,2
+s13,8,6:16,Rabbit,(vec gva (EdgeFn sva svd)) (vc pvc1 svb) (to (EdgeFn bva bvc) (EdgeFn gva gvb) bva gvb) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (vec ova (EdgeFn bva bvc)) (unattached rt),2,3
+s13,9,6:28,Rabbit,(vec gva (EdgeFn sva svd)) (vc pvc1 svb) (to (EdgeFn bva bvc) (EdgeFn gva gvb) bva gvb) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (vec ovc (EdgeFn bva bvc)) (unattached rt),4,1
+s13,10,6:51,Rabbit,(vec gva (EdgeFn sva svd)) (vc pvc1 svb) (to (EdgeFn bva bvc) (EdgeFn gva gvb) bva gvb) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (vec ovc (EdgeFn bva bvc)) (tovi (EdgeFn rvb rvc) (EdgeFn ova ovc) rvb ova),4,2
+s13,11,6:58,Rabbit,(vec gva (EdgeFn sva svd)) (vc pvc1 svb) (to (EdgeFn bva bvc) (EdgeFn gva gvb) bva gvb) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (vec ovc (EdgeFn bva bvc)) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova),5,1
+s13,12,7:13,Rabbit,(vec gva (EdgeFn sva svd)) (vc pvc1 svb) (to (EdgeFn bva bvc) (EdgeFn gva gvb) bva gvb) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (vec ovc (EdgeFn bva bvc)) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (teq (EdgeFn pva pvc) (EdgeFn rva rvb)),6,1
+s14,1,2:34,Cat,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (unattached s) (unattached rt) (unattached bt) (unattached p),1,0
+s14,2,2:43,Cat,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (unattached s) (unattached bt) (unattached p),2,0
+s14,3,2:48,Cat,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (vc svd gva) (vc svd rvc) (unattached bt) (unattached p),4,0
+s14,4,2:53,Cat,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (vc svd gva) (vc svd rvc) (vc pvc1 ovb) (unattached bt),5,0
+s14,5,2:56,Cat,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (vc svd gva) (vc svd rvc) (vc pvc1 ovb) (teq (EdgeFn sva svb) (EdgeFn bvb bvc)),6,0
+s14,6,3:40,Cat,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (vc svd gva) (vc svd rvc) (vc pvc1 ovb) (teq (EdgeFn sva svb) (EdgeFn bvb bvc)) (teq (EdgeFn svb svc) (EdgeFn pva pvb)) (vc bvb pvb),8,0
+s15,1,3:54,Rabbit,(vc sva pvc1) (unattached gt) (unattached ot) (unattached rt) (unattached bt),1,0
+s15,2,4:23,Rabbit,(vc sva pvc1) (vc svc ova) (unattached gt) (unattached rt) (unattached bt),1,1
+s15,3,4:50,Rabbit,(vc sva pvc1) (vc svc ova) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (unattached rt) (unattached bt),2,1
+s15,4,5:16,Rabbit,(vc sva pvc1) (vc svc ova) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn bva bvc) (EdgeFn gva gvc) bvc gva) (unattached rt),2,2
+s15,5,5:23,Rabbit,(vc sva pvc1) (vc svc ova) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (unattached bt),3,1
+s15,6,5:37,Rabbit,(vc sva pvc1) (vc svc ova) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (to (EdgeFn bva bvc) (EdgeFn ova ovb) bva ovb) (vec gvc (EdgeFn bva bvc)),5,1
+s15,7,7:24,Rabbit,(vc sva pvc1) (vc svc ova) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (to (EdgeFn bva bvc) (EdgeFn ova ovb) bva ovb) (vec gvc (EdgeFn bva bvc)) (teq (EdgeFn pva pvc) (EdgeFn rva rvb)) (vec pva (EdgeFn gva gvc)),7,1
+s17,1,3:14,Rabbit,(vc pvc2 sva) (unattached ot) (unattached gt) (unattached rt) (unattached bt),1,0
+s17,2,3:19,Rabbit,(vc pvc2 sva) (vc svd ova) (unattached gt) (unattached rt) (unattached bt),2,0
+s17,3,3:30,Rabbit,(vc pvc2 sva) (vc svd ova) (vec (EdgeFn bva bvc) ovb) (unattached gt) (unattached rt),2,1
+s17,4,3:35,Rabbit,(vc pvc2 sva) (vc svd ova) (vec (EdgeFn bva bvc) ovb) (vc ovc gvc) (unattached rt),2,2
+s17,5,3:45,Rabbit,(vc pvc2 svd) (vc pvc2 ova) (vc svd ova) (vec (EdgeFn bva bvc) ovb) (vc ovc gvc) (unattached rt),1,4
+s17,6,3:57,Rabbit,(vc pvc2 ova) (vec (EdgeFn bva bvc) svd) (vc ovc gvc) (unattached rt) (unattached s),0,3
+s17,7,3:59,Rabbit,(vc pvc2 ova) (vec (EdgeFn bva bvc) svd) (vc ovc gvc) (tei (EdgeFn sva svb) (EdgeFn pvb2 pvc2)) (unattached rt),0,4
+s17,8,4:03,Rabbit,(vc pvc2 ova) (vec (EdgeFn bva bvc) svd) (vc ovc gvc) (tei (EdgeFn sva svb) (EdgeFn pvb2 pvc2)),0,4
+s17,9,4:14,Rabbit,(tei (EdgeFn sva svb) (EdgeFn pvb2 pvc2)) (vc sva bva) (vc bva pvb2) (unattached rt) (unattached gt) (unattached ot),0,3
+s17,10,4:19,Rabbit,(tei (EdgeFn sva svb) (EdgeFn pvb2 pvc2)) (vc sva bva) (vc bva pvb2) (to (EdgeFn ovb ovc) (EdgeFn gvb gvc) ovb gvb) (unattached rt),0,4
+s17,11,4:26,Rabbit,(to (EdgeFn ovb ovc) (EdgeFn gvb gvc) ovb gvb) (vec sva (EdgeFn gva gvc)) (unattached rt) (unattached bt) (unattached p),0,2
+s17,12,4:30,Rabbit,(to (EdgeFn ovb ovc) (EdgeFn gvb gvc) ovb gvb) (tei (EdgeFn sva svd) (EdgeFn gva gvc)) (vc pvc2 svd) (unattached rt) (unattached bt),0,3
+s17,13,4:37,Rabbit,(to (EdgeFn ovb ovc) (EdgeFn gvb gvc) ovb gvb) (tei (EdgeFn sva svd) (EdgeFn gva gvc)) (vc pvc2 svd) (tovi (EdgeFn bva bvc) (EdgeFn svc svd) bvc svd) (vec bvc (EdgeFn gva gvc)) (unattached rt),0,5
+s17,14,4:40,Rabbit,(to (EdgeFn ovb ovc) (EdgeFn gvb gvc) ovb gvb) (tei (EdgeFn sva svd) (EdgeFn gva gvc)) (vc pvc2 svd) (vec gva (EdgeFn bva bvc)) (unattached rt),0,4
+s17,15,4:44,Rabbit,(to (EdgeFn ovb ovc) (EdgeFn gvb gvc) ovb gvb) (tei (EdgeFn sva svd) (EdgeFn gva gvc)) (vc pvc2 svd) (vec gva (EdgeFn bva bvc)) (vec ovc (EdgeFn rva rvc)),0,5
+s17,16,5:09,Rabbit,(vc ovb gva) (tovi (EdgeFn sva svd) (EdgeFn gva gvb) svd gvb) (vc rva gvc) (vec bvb (EdgeFn gvb gvc)) (unattached p),0,5
+s17,17,5:22,Rabbit,(vec rvc (EdgeFn ova ovc)) (unattached s) (unattached gt) (unattached bt) (unattached p),0,1
+s17,18,5:25,Rabbit,(vec rvc (EdgeFn ova ovc)) (tei (EdgeFn sva svb) (EdgeFn gva gvc)) (unattached s) (unattached bt) (unattached p),0,2
+s17,19,5:44,Rabbit,(vec rvc (EdgeFn ova ovc)) (unattached s) (unattached gt) (unattached bt) (unattached p),0,1
+s17,20,5:49,Rabbit,(vec rvc (EdgeFn ova ovc)) (vc svd gva) (unattached s) (unattached bt) (unattached p),1,1
+s17,21,5:53,Rabbit,(vec rvc (EdgeFn ova ovc)) (vc svd gva) (teq (EdgeFn pva2 pvb2) (EdgeFn sva svb)) (unattached s) (unattached bt),1,2
+s17,22,6:00,Rabbit,(vc svd gva) (teq (EdgeFn pva2 pvb2) (EdgeFn sva svb)) (vec gvc (EdgeFn ovb ovc)) (unattached rt) (unattached bt),1,2
+s17,23,6:04,Rabbit,(vc svd gva) (teq (EdgeFn pva2 pvb2) (EdgeFn sva svb)) (vec gvc (EdgeFn ovb ovc)) (tovi (EdgeFn bva bvc) (EdgeFn gvb gvc) bva gvb) (unattached rt),1,3
+s17,24,6:09,Rabbit,(vc svd gva) (teq (EdgeFn pva2 pvb2) (EdgeFn sva svb)) (vec gvc (EdgeFn ovb ovc)) (tovi (EdgeFn bva bvc) (EdgeFn gvb gvc) bva gvb) (vec ovc (EdgeFn rva rvc)),1,4
+s17,25,6:57,Rabbit,(vc svd gva) (teq (EdgeFn pva2 pvb2) (EdgeFn sva svb)) (vec gvc (EdgeFn ovb ovc)) (tovi (EdgeFn bva bvc) (EdgeFn gvb gvc) bva gvb) (vec ovc (EdgeFn rva rvc)) (vec rvb (EdgeFn pva pvc)),1,5
+s17,26,7:03,Rabbit,(vc svd gva) (teq (EdgeFn pva2 pvb2) (EdgeFn sva svb)) (vec gvc (EdgeFn ovb ovc)) (tovi (EdgeFn bva bvc) (EdgeFn gvb gvc) bva gvb) (vec ovc (EdgeFn rva rvc)) (vec (EdgeFn ova ovc) pva),1,5
+s17,27,7:17,Rabbit,(vc svd gva) (teq (EdgeFn pva2 pvb2) (EdgeFn sva svb)) (vec gvc (EdgeFn ova ovc)) (unattached bt) (vc rva ova),1,3
+s17,28,7:22,Rabbit,(vc svd gva) (teq (EdgeFn pva2 pvb2) (EdgeFn sva svb)) (vec gvc (EdgeFn ova ovb)) (vec (EdgeFn ova ovc) pva) (unattached bt) (unattached rt),1,3
+s17,29,7:25,Rabbit,(vc svd gva) (teq (EdgeFn pva2 pvb2) (EdgeFn sva svb)) (unattached ot) (unattached bt) (unattached rt),1,1
+s17,30,7:32,Rabbit,(teq (EdgeFn pva2 pvb2) (EdgeFn sva svb)) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (vc pvc gva) (vc pvc gva) (unattached bt) (unattached rt),1,2
+s17,31,7:36,Rabbit,(teq (EdgeFn pva2 pvb2) (EdgeFn sva svb)) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (vc pvc gva) (tovi (EdgeFn pva pvc) (EdgeFn ova ovc) pva ovc) (vc pva gvb) (unattached bt) (unattached rt),1,4
+s17,32,7:39,Rabbit,(teq (EdgeFn pva2 pvb2) (EdgeFn sva svb)) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (vc pvc gva) (tovi (EdgeFn pva pvc) (EdgeFn ova ovc) pva ovc) (vc pva gvb) (to (EdgeFn rva rvc) (EdgeFn gva gvb) rva gvb) (to (EdgeFn pva pvb) (EdgeFn rva rvc) pva rvc) (vec (EdgeFn rva rvc) ovc) (unattached bt),1,7
+s17,33,7:42,Rabbit,(teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn pva pvc) (EdgeFn ova ovc) pva ovc) (vc pva gvb) (to (EdgeFn rva rvc) (EdgeFn gva gvb) rva gvb) (to (EdgeFn pva pvb) (EdgeFn rva rvc) pva rvc) (vec (EdgeFn rva rvc) ovc) (teq (EdgeFn bva bvc) (EdgeFn rva rvb)) (vec bva (EdgeFn gva gvb)) (unattached s) (unattached p),1,7
+s17,34,7:46,Rabbit,(teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn pva pvc) (EdgeFn ova ovc) pva ovc) (vc pva gvb) (to (EdgeFn rva rvc) (EdgeFn gva gvb) rva gvb) (to (EdgeFn pva pvb) (EdgeFn rva rvc) pva rvc) (vec (EdgeFn rva rvc) ovc) (teq (EdgeFn bva bvc) (EdgeFn rva rvb)) (vec bva (EdgeFn gva gvb)) (vec bvb (EdgeFn sva svd)) (unattached p),1,8
+s17,35,7:49,Rabbit,(teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn pva pvc) (EdgeFn ova ovc) pva ovc) (vc pva gvb) (to (EdgeFn rva rvc) (EdgeFn gva gvb) rva gvb) (to (EdgeFn pva pvb) (EdgeFn rva rvc) pva rvc) (vec (EdgeFn rva rvc) ovc) (teq (EdgeFn bva bvc) (EdgeFn rva rvb)) (vec bva (EdgeFn gva gvb)) (vec bvb (EdgeFn sva svd)) (vec pvc2 (EdgeFn sva svb)),1,9
+s17,36,8:01,Rabbit,(teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn pva pvc) (EdgeFn ova ovc) pva ovc) (vc pva gvb) (to (EdgeFn rva rvc) (EdgeFn gva gvb) rva gvb) (to (EdgeFn pva pvb) (EdgeFn rva rvc) pva rvc) (vec (EdgeFn rva rvc) ovc) (teq (EdgeFn bva bvc) (EdgeFn rva rvb)) (vec bvb (EdgeFn sva svd)) (vec pvc2 (EdgeFn sva svb)) (vec gva (EdgeFn pvc2 pvd2)),1,9
+s17,37,8:07,Rabbit,(teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (to (EdgeFn rva rvc) (EdgeFn gva gvb) rva gvb) (vec (EdgeFn rva rvc) ovc) (teq (EdgeFn bva bvc) (EdgeFn rva rvb)) (vec bvb (EdgeFn sva svd)) (vec pvc2 (EdgeFn sva svb)) (vec gva (EdgeFn pvc2 pvd2)),1,6
+s17,38,8:10,Rabbit,(teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (vec bvb (EdgeFn sva svd)) (vec pvc2 (EdgeFn sva svb)) (vec gva (EdgeFn pvc2 pvd2)) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rva ovc) (to (EdgeFn pva pvc) (EdgeFn rva rvb) pvc rva) (to (EdgeFn pva pvc) (EdgeFn gva gvb) pva gvb) (vec bvc (EdgeFn pva pvb)),2,6
+s17,39,8:14,Rabbit,(teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rva ovc) (vc rva gvb) (to (EdgeFn pva pvc) (EdgeFn gva gvb) pvd gve) (to (EdgeFn pva pvc) (EdgeFn rva rvb) pvf rvd) (vc bvc pvb) (vec bva (EdgeFn gva gvb)) (teq (EdgeFn sva svd) (EdgeFn bva bvb)) (vec sva (EdgeFn gva gvb)) (vec gva (EdgeFn pvc2 pvd2)) (vc pvc2 svb),3,8
+s17,40,8:29,Rabbit,(teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rva ovc) (vc rva gvb) (to (EdgeFn pva pvc) (EdgeFn gva gvb) pvd gve) (to (EdgeFn pva pvc) (EdgeFn rva rvb) pvf rvd) (vec bva (EdgeFn gva gvb)) (teq (EdgeFn sva svd) (EdgeFn bva bvb)) (vec sva (EdgeFn gva gvb)) (vec gva (EdgeFn pvc2 pvd2)) (vc pvc2 svb),3,7
+s17,41,8:47,Rabbit,(teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rva ovc) (vc rva gvb) (to (EdgeFn pva pvc) (EdgeFn gva gvb) pvd gve) (to (EdgeFn pva pvc) (EdgeFn rva rvb) pvf rvd) (tei (EdgeFn bva bvc) (EdgeFn gva gvb)) (vc bvc pva) (vec (EdgeFn bva bvb) sva) (vec gva (EdgeFn pvc2 pvd2)) (vec pvc2 (EdgeFn sva svb)),3,7
+s17,42,8:57,Rabbit,(teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rva ovc) (vc rva gvb) (to (EdgeFn pva pvc) (EdgeFn gva gvb) pvd gve) (to (EdgeFn pva pvc) (EdgeFn rva rvb) pvf rvd) (tei (EdgeFn bva bvc) (EdgeFn gva gvb)) (vc bvc pva) (vec gva (EdgeFn sva svd)) (vc pvc2 svb),2,6
+s18,1,0:16,Cat,(tovi (EdgeFn pvb1 pvc1) (EdgeFn gvb gvc) pvc1 gvc) (unattached ot) (unattached s) (unattached bt) (unattached rt),0,1
+s18,2,0:21,Cat,(tovi (EdgeFn pvc1 pvd1) (EdgeFn ova ovc) pvg1 ova) (tovi (EdgeFn pvb1 pvc1) (EdgeFn gvb gvc) pvc1 gvc) (unattached s) (unattached bt) (unattached rt),0,2
+s18,3,0:31,Cat,(vc ovc gva) (tovi (EdgeFn pvc1 pvd1) (EdgeFn ova ovc) pvc1 ovf) (tovi (EdgeFn pvb1 pvc1) (EdgeFn gva gvc) pvc1 gva) (unattached s) (unattached bt) (unattached rt),0,3
+s18,4,0:34,Cat,(vc ovc gva) (tovi (EdgeFn pvc1 pvd1) (EdgeFn ova ovc) pvc1 ovf) (tovi (EdgeFn pvb1 pvc1) (EdgeFn gva gvc) pvc1 gva) (vc rvc ovc) (vc pvc1 rvc) (vc rvc gva) (unattached s) (unattached bt),0,4
+s18,5,0:38,Cat,(vc ovc gva) (tovi (EdgeFn pvc1 pvd1) (EdgeFn ova ovc) pvc1 ovf) (tovi (EdgeFn pvb1 pvc1) (EdgeFn gva gvc) pvc1 gva) (vc rvc ovc) (vc pvc1 rvc) (vc rvc gva) (tovi (EdgeFn bva bvb) (EdgeFn gva gvb) bvb gva) (tovi (EdgeFn bvb bvc) (EdgeFn rvb rvc) bvb rvc) (vc bvb ovc) (vc bvb pvc1) (unattached s),0,4
+s18,6,0:43,Cat,(vc ovc gva) (tovi (EdgeFn pvc1 pvd1) (EdgeFn ova ovc) pvc1 ovf) (tovi (EdgeFn pvb1 pvc1) (EdgeFn gva gvc) pvc1 gva) (vc rvc ovc) (vc pvc1 rvc) (vc rvc gva) (tovi (EdgeFn bva bvb) (EdgeFn gva gvb) bvb gva) (tovi (EdgeFn bvb bvc) (EdgeFn rvb rvc) bvb rvc) (vc bvb ovc) (vc bvb pvc1) (tovi (EdgeFn svc svd) (EdgeFn rva rvc) svc rva),0,4
+s18,7,1:09,Cat,(unattached ot) (unattached p) (unattached s) (unattached bt) (unattached rt),0,0
+s18,8,1:20,Cat,(tovi (EdgeFn pva1 pvb1) (EdgeFn bva bvc) pvb bva) (unattached ot) (unattached s) (unattached rt),0,1
+s18,9,1:28,Cat,(unattached ot) (unattached p) (unattached s) (unattached bt) (unattached rt),0,0
+s18,10,1:40,Cat,(teq (EdgeFn svb svc) (EdgeFn bva bvb)) (unattached ot) (unattached p) (unattached rt),1,0
+s18,11,1:52,Cat,(teq (EdgeFn svb svc) (EdgeFn bva bvb)) (tei (EdgeFn sva svd) (EdgeFn rvb rvc)) (unattached ot) (unattached p),1,1
+s18,12,1:58,Cat,(teq (EdgeFn svb svc) (EdgeFn bva bvb)) (tei (EdgeFn sva svd) (EdgeFn rvb rvc)) (vec ova (EdgeFn svc svd)) (unattached p),1,2
+s18,13,2:08,Cat,(teq (EdgeFn svb svc) (EdgeFn bva bvb)) (tei (EdgeFn sva svd) (EdgeFn rvb rvc)) (vec ova (EdgeFn svc svd)) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvc ovc) (unattached p),1,3
+s18,14,2:12,Cat,(teq (EdgeFn svb svc) (EdgeFn bva bvb)) (tei (EdgeFn sva svd) (EdgeFn rvb rvc)) (vec ova (EdgeFn svc svd)) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvc ovc) (vc pvc1 ovc),1,4
+s18,15,2:28,Cat,(unattached ot) (unattached p) (unattached s) (unattached bt) (unattached rt),0,0
+s18,16,2:34,Cat,(teq (EdgeFn svb svc) (EdgeFn bva bvb)) (unattached ot) (unattached p) (unattached rt) (unattached gt),1,0
+s18,17,2:57,Cat,(teq (EdgeFn svb svc) (EdgeFn bva bvb)) (tovi (EdgeFn sva svb) (EdgeFn rvb rvc) svb rvb) (vc bvb rvb) (unattached ot) (unattached p) (unattached gt),1,2
+s18,18,3:07,Cat,(teq (EdgeFn svb svc) (EdgeFn bva bvb)) (tovi (EdgeFn sva svb) (EdgeFn rvb rvc) svb rvb) (vc bvb rvb) (vc svd ova) (unattached p) (unattached gt),2,2
+s18,19,3:22,Cat,(teq (EdgeFn svb svc) (EdgeFn bva bvb)) (tovi (EdgeFn sva svb) (EdgeFn rvb rvc) svb rvb) (vc bvb rvb) (vc svd ova) (vc pvc1 ovc) (unattached gt),2,3
+s18,20,3:30,Cat,(teq (EdgeFn svb svc) (EdgeFn bva bvb)) (tovi (EdgeFn sva svb) (EdgeFn rvb rvc) svb rvb) (vc bvb rvb) (vc svd ova) (vc pvc1 ovc) (tei (EdgeFn gvb gvc) (EdgeFn ova ovc)),2,4
+s18,21,3:43,Cat,(teq (EdgeFn svb svc) (EdgeFn bva bvb)) (tovi (EdgeFn sva svb) (EdgeFn rvb rvc) svb rvb) (vc bvb rvb) (vc svd ova) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvc ovc) (vc pvc1 ovc),2,4
+s18,22,3:52,Cat,(teq (EdgeFn svb svc) (EdgeFn bva bvb)) (tovi (EdgeFn sva svb) (EdgeFn rvb rvc) svb rvb) (vc bvb rvb) (vc svd ova) (tovi (EdgeFn gva gvb) (EdgeFn ova ovc) gvb ovc) (vc pvc1 ovc),2,4
+s18,23,4:05,Cat,(teq (EdgeFn svb svc) (EdgeFn bva bvb)) (tovi (EdgeFn sva svb) (EdgeFn rvb rvc) svb rvb) (vc bvb rvb) (vc svd ova) (tei (EdgeFn gva gvb) (EdgeFn ova ovc)) (vc pvc1 ovc),2,4
+s18,24,4:25,Cat,(teq (EdgeFn svb svc) (EdgeFn bva bvb)) (tovi (EdgeFn sva svb) (EdgeFn rvb rvc) svb rvb) (vc bvb rvb) (vc svd ova) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (unattached p),2,3
+s18,25,4:29,Cat,(teq (EdgeFn svb svc) (EdgeFn bva bvb)) (tovi (EdgeFn sva svb) (EdgeFn rvb rvc) svb rvb) (vc bvb rvb) (vc svd ova) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tei (EdgeFn pva1 pvb1) (EdgeFn ova ovc)),2,4
+s18,26,4:43,Cat,(teq (EdgeFn svb svc) (EdgeFn bva bvb)) (tovi (EdgeFn sva svb) (EdgeFn rvb rvc) svb rvb) (vc bvb rvb) (vc svd ova) (tovi (EdgeFn ovb ovc) (EdgeFn gva gvc) ovc gvc) (tei (EdgeFn pva1 pvb1) (EdgeFn ova ovc)),2,4
+s18,27,5:00,Cat,(teq (EdgeFn svb svc) (EdgeFn bva bvb)) (tovi (EdgeFn sva svb) (EdgeFn rvb rvc) svb rvb) (vc bvb rvb) (vc svd ova) (tovi (EdgeFn ovb ovc) (EdgeFn gva gvc) ovb gva) (tei (EdgeFn pva1 pvb1) (EdgeFn ova ovc)),3,3
+s18,28,5:46,Cat,(teq (EdgeFn svb svc) (EdgeFn bva bvb)) (tovi (EdgeFn sva svb) (EdgeFn rvb rvc) svb rvb) (vc bvb rvb) (vc svd ova) (tovi (EdgeFn ovb ovc) (EdgeFn gva gvc) ovb gva) (vc pvc1 gvb),4,2
+s18,29,6:06,Cat,(teq (EdgeFn svb svc) (EdgeFn bva bvb)) (tei (EdgeFn rvb rvc) (EdgeFn ova ovc)) (vc svd ova) (tovi (EdgeFn ovb ovc) (EdgeFn gva gvc) ovb gva) (vc pvc1 gvb),4,1
+s18,30,8:07,Cat,(teq (EdgeFn svb svc) (EdgeFn bva bvb)) (tei (EdgeFn rvb rvc) (EdgeFn ova ovc)) (vc svd ova) (tovi (EdgeFn ovb ovc) (EdgeFn gva gvc) ovb gva) (vc pvc1 gvb) (teq (EdgeFn sva svb) (EdgeFn pvb pvc)) (vc bvb pvb),6,1
+s19,1,2:45,Rabbit,(teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (unattached s) (unattached rt) (unattached bt) (unattached p),1,0
+s19,2,2:49,Rabbit,(teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (unattached s) (unattached bt) (unattached p),2,0
+s19,3,2:56,Rabbit,(teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (teq (EdgeFn bva bvc) (EdgeFn rva rvb)) (vec bva (EdgeFn ova ovc)) (unattached s) (unattached p),4,0
+s19,4,3:08,Rabbit,(teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (teq (EdgeFn bva bvc) (EdgeFn rva rvb)) (vec bva (EdgeFn ova ovc)) (vc svd gva) (unattached p),5,0
+s19,5,3:14,Rabbit,(teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (teq (EdgeFn bva bvc) (EdgeFn rva rvb)) (vec bva (EdgeFn ova ovc)) (vc svd gva) (vc pvc1 sva),6,0
+s19,6,4:00,Rabbit,(teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (teq (EdgeFn bva bvc) (EdgeFn rva rvb)) (vec bva (EdgeFn ova ovc)) (vc svd gva) (vc pvc1 sva) (to (EdgeFn pva pvc) (EdgeFn gva gvb) pva gvb) (vec ovc (EdgeFn pva pvc)),8,0
+s20,1,5:04,Cat,(tovi (EdgeFn pvc1 pvd1) (EdgeFn gvb gvc) pvb1 gvc) (unattached ot) (unattached rt) (unattached s) (unattached bt),0,1
+s20,2,5:12,Cat,(tovi (EdgeFn pvc1 pvd1) (EdgeFn gva gvb) pvb1 gvc) (unattached ot) (unattached rt) (unattached s) (unattached bt),0,1
+s20,3,5:31,Cat,(tovi (EdgeFn pvc1 pvd1) (EdgeFn gva gvb) pvb1 gvc) (tovi (EdgeFn ova ovb) (EdgeFn gva gvc) ova gva) (unattached rt) (unattached s) (unattached bt),0,2
+s20,4,5:43,Cat,(tovi (EdgeFn pvc1 pvd1) (EdgeFn gva gvb) pvb1 gvc) (tovi (EdgeFn ovb ovc) (EdgeFn gva gvc) ovb gva) (unattached rt) (unattached s) (unattached bt),1,1
+s20,5,5:48,Cat,(tovi (EdgeFn pvc1 pvd1) (EdgeFn gva gvb) pvb1 gvc) (tovi (EdgeFn ovb ovc) (EdgeFn gva gvc) ovb gva) (tei (EdgeFn bva bvc) (EdgeFn ova ovc)) (unattached rt) (unattached s),1,2
+s20,6,5:52,Cat,(tovi (EdgeFn ovb ovc) (EdgeFn gva gvc) ovb gva) (tei (EdgeFn bva bvc) (EdgeFn ova ovc)) (unattached rt) (unattached s) (unattached p),1,1
+s20,7,6:06,Cat,(tovi (EdgeFn ovb ovc) (EdgeFn gva gvc) ovb gva) (tei (EdgeFn bva bvc) (EdgeFn ova ovc)) (vc svd ova) (unattached rt) (unattached p),2,1
+s20,8,6:14,Cat,(tovi (EdgeFn ovb ovc) (EdgeFn gva gvc) ovb gva) (tei (EdgeFn bva bvc) (EdgeFn ova ovc)) (vc svd ova) (vc pva1 gvb) (unattached rt),3,1
+s20,9,6:34,Cat,(tovi (EdgeFn ovb ovc) (EdgeFn gva gvc) ovb gva) (tei (EdgeFn bva bvc) (EdgeFn ova ovc)) (vc svd ova) (vc pva1 gvb) (vc svb rvb),3,2
+s20,10,6:42,Cat,(tovi (EdgeFn ovb ovc) (EdgeFn gva gvc) ovb gva) (vc svd ova) (vc pva1 gvb) (unattached rt) (unattached bt),3,0
+s20,11,6:46,Cat,(tovi (EdgeFn ovb ovc) (EdgeFn gva gvc) ovb gva) (vc svd ova) (vc pva1 gvb) (vc svb bvb) (unattached rt),3,1
+s20,12,6:48,Cat,(tovi (EdgeFn ovb ovc) (EdgeFn gva gvc) ovb gva) (vc svd ova) (vc pva1 gvb) (vc svb bvb) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (vc svd rvc),5,1
+s20,13,6:57,Cat,(tovi (EdgeFn ovb ovc) (EdgeFn gva gvc) ovb gva) (vc svd ova) (vc pva1 gvb) (vec svb (EdgeFn bva bvc)) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (vc svd rvc),5,1
+s20,14,7:56,Cat,(tovi (EdgeFn ovb ovc) (EdgeFn gva gvc) ovb gva) (vc svd ova) (vc pva1 gvb) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (vc svd rvc) (unattached pt) (unattached bt),5,0
+s20,15,8:04,Cat,(tovi (EdgeFn ovb ovc) (EdgeFn gva gvc) ovb gva) (vc svd ova) (vc pva1 gvb) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (vc svd rvc) (teq (EdgeFn sva svb) (EdgeFn pvb pvc)) (unattached bt),6,0
+s20,16,8:08,Cat,(tovi (EdgeFn ovb ovc) (EdgeFn gva gvc) ovb gva) (vc svd ova) (vc pva1 gvb) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (vc svd rvc) (teq (EdgeFn sva svb) (EdgeFn pvb pvc)) (teq (EdgeFn svb svc) (EdgeFn bva bvb)) (vc bvb pvb),8,0
+s22,1,4:59,Cat,(vc pvc2 rvb) (unattached gt) (unattached ot) (unattached bt) (unattached s),0,1
+s22,2,5:09,Cat,(unattached gt) (unattached ot) (unattached bt) (unattached s) (unattached p),0,0
+s22,3,5:15,Cat,(vc pvc2 ovb) (unattached gt) (unattached ot) (unattached bt) (unattached s),1,0
+s22,4,5:19,Cat,(unattached gt) (unattached ot) (unattached bt) (unattached s) (unattached p),0,0
+s22,5,5:27,Cat,(vc pvc2 rvb) (unattached gt) (unattached ot) (unattached bt) (unattached s),0,1
+s22,6,5:34,Cat,(vc pvc2 ovb) (unattached rt) (unattached gt) (unattached bt) (unattached s),1,0
+s22,7,5:37,Cat,(vc pvc2 ovb) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (unattached rt) (unattached bt) (unattached s),2,0
+s22,8,5:47,Cat,(vc pvc2 ovb) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (unattached bt) (unattached s),3,0
+s22,9,5:53,Cat,(vc pvc2 ovb) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (vc svd gva) (vc svd rvc) (teq (EdgeFn svb svc) (EdgeFn bva bvb)),6,0
+s22,10,6:46,Cat,(vc pvc2 ovb) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (vc svd gva) (vc svd rvc) (teq (EdgeFn svb svc) (EdgeFn bva bvb)) (teq (EdgeFn sva svb) (EdgeFn pvb pvc)) (vc bvb pvb),8,0
+s23,1,3:17,Rabbit,(vc sva pvc1) (unattached gt) (unattached ot) (unattached rt) (unattached bt),1,0
+s23,2,3:25,Rabbit,(vc sva pvc1) (vc svd gva) (unattached ot) (unattached rt) (unattached bt),2,0
+s23,3,3:34,Rabbit,(vc sva pvc1) (vc svd gva) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (unattached rt) (unattached bt),3,0
+s23,4,3:39,Rabbit,(vc sva pvc1) (vc svd gva) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (unattached bt),4,0
+s23,5,3:42,Rabbit,(vc sva pvc1) (vc svd gva) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (teq (EdgeFn bva bvc) (EdgeFn rva rvb)) (vec bva (EdgeFn ova ovc)),6,0
+s23,6,4:24,Rabbit,(vc sva pvc1) (vc svd gva) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (teq (EdgeFn bva bvc) (EdgeFn rva rvb)) (vec bva (EdgeFn ova ovc)) (to (EdgeFn pva pvc) (EdgeFn gva gvb) pva gvb) (vec ovc (EdgeFn pva pvc)),8,0
+s24,1,10:15,Cat,(teq (EdgeFn pvc1 pvd1) (EdgeFn svb svc)) (unattached gt) (unattached ot) (unattached rt) (unattached bt),0,1
+s24,2,10:22,Cat,(teq (EdgeFn pvc1 pvd1) (EdgeFn svb svc)) (teq (EdgeFn pva1 pvd1) (EdgeFn bva bvc)) (unattached gt) (unattached ot) (unattached rt),0,2
+s24,3,10:25,Cat,(teq (EdgeFn pvc1 pvd1) (EdgeFn svb svc)) (teq (EdgeFn pva1 pvd1) (EdgeFn bva bvc)) (tei (EdgeFn sva svb) (EdgeFn ova ovc)) (vec pvc1 (EdgeFn ova ovc)) (unattached gt) (unattached rt),0,4
+s24,4,10:30,Cat,(teq (EdgeFn pvc1 pvd1) (EdgeFn svb svc)) (teq (EdgeFn pva1 pvd1) (EdgeFn bva bvc)) (tei (EdgeFn sva svb) (EdgeFn ova ovc)) (vec pvc1 (EdgeFn ova ovc)) (teq (EdgeFn rva rvc) (EdgeFn ova ovb)) (unattached gt),0,5
+s24,5,10:35,Cat,(teq (EdgeFn pvc1 pvd1) (EdgeFn svb svc)) (teq (EdgeFn pva1 pvd1) (EdgeFn bva bvc)) (vc svc bvc) (tei (EdgeFn sva svb) (EdgeFn ova ovc)) (vec pvc1 (EdgeFn ova ovc)) (teq (EdgeFn rva rvc) (EdgeFn ova ovb)) (tovi (EdgeFn pva1 pvb1) (EdgeFn gva gvc) pvd1 gva),0,6
+s24,6,10:48,Cat,(unattached ot) (unattached rt) (unattached p) (unattached s) (unattached bt),0,0
+s24,7,10:57,Cat,(tovi (EdgeFn svb svc) (EdgeFn bva bvc) svc bvc) (isAbove svc bvc) (unattached rt) (unattached ot) (unattached gt) (unattached p),0,1
+s24,8,11:00,Cat,(tovi (EdgeFn svb svc) (EdgeFn bva bvc) svb bva) (isAbove svc bvc) (tovi (EdgeFn sva svb) (EdgeFn rva rvc) svb rvc) (vc bva rvc) (unattached ot) (unattached gt) (unattached p),0,3
+s24,9,11:06,Cat,(tovi (EdgeFn svb svc) (EdgeFn bva bvc) svb bva) (isAbove svc bvc) (tovi (EdgeFn sva svb) (EdgeFn rva rvc) svb rvc) (vc svd gva) (vc bva rvc) (unattached ot) (unattached p),1,3
+s24,10,11:13,Cat,(tovi (EdgeFn svb svc) (EdgeFn bva bvc) svb bva) (isAbove svc bvc) (tovi (EdgeFn sva svb) (EdgeFn rva rvc) svb rvc) (vc svd gva) (vc bva rvc) (teq (EdgeFn ova ovc) (EdgeFn gva gvc)) (vc svd ovc) (unattached p),1,5
+s24,11,11:22,Cat,(tovi (EdgeFn svb svc) (EdgeFn bva bvc) svb bva) (isAbove svc bvc) (tovi (EdgeFn sva svb) (EdgeFn rva rvc) svb rvc) (vc svd gva) (vc bva rvc) (unattached ot) (unattached p),1,3
+s24,12,11:36,Cat,(tovi (EdgeFn svb svc) (EdgeFn bva bvc) svb bva) (isAbove svc bvc) (tovi (EdgeFn sva svb) (EdgeFn rva rvc) svb rvc) (vc svd gva) (vc bva rvc) (teq (EdgeFn ova ovc) (EdgeFn gva gvc)) (vc svd ovc) (unattached p),1,3
+s24,13,11:41,Cat,(tovi (EdgeFn svb svc) (EdgeFn bva bvc) svb bva) (isAbove svc bvc) (vc svd ovc) (unattached gt) (unattached rt) (to (EdgeFn pva pvc) (EdgeFn gvb gvc) pvc gvb),0,3
+s24,14,11:50,Cat,(tovi (EdgeFn svb svc) (EdgeFn bva bvc) svb bva) (isAbove svc bvc) (unattached ot) (unattached rt) (unattached gt) (unattached p),0,1
+s24,15,11:56,Cat,(tovi (EdgeFn svb svc) (EdgeFn bva bvc) svb bva) (isAbove svc bvc) (vc svd ova) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (vc svd rvc) (unattached gt) (unattached p),3,1
+s24,16,11:59,Cat,(tovi (EdgeFn svb svc) (EdgeFn bva bvc) svb bva) (vc svd ova) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (vc svd rvc) (unattached gt) (unattached p),3,1
+s24,17,12:03,Cat,(tovi (EdgeFn svb svc) (EdgeFn bva bvc) svb bva) (vc svd ova) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (vc svd rvc) (tei (EdgeFn ovb ovc) (EdgeFn gva gvc)) (unattached p),3,2
+s24,18,12:05,Cat,(tovi (EdgeFn svb svc) (EdgeFn bva bvc) svb bva) (vc svd ova) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (vc svd rvc) (tei (EdgeFn ovb ovc) (EdgeFn gva gvc)) (vc pvc1 gvb),4,2
+s24,19,12:41,Cat,(tovi (EdgeFn svb svc) (EdgeFn bva bvc) svb bva) (vc svd ova) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (vc svd rvc) (tei (EdgeFn ovb ovc) (EdgeFn gva gvc)) (vc pvc1 gvb) (tovi (EdgeFn sva svb) (EdgeFn pva pvc) svb pvc) (vc bva pvc),4,4
+s24,20,13:31,Cat,(vc svd ova) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (vc svd rvc) (tei (EdgeFn ovb ovc) (EdgeFn gva gvc)) (vc pvc1 gvb) (teq (EdgeFn sva svb) (EdgeFn pvb pvc)) (unattached bt),5,1
+s24,21,13:34,Cat,(vc svd ova) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (vc svd rvc) (tei (EdgeFn ovb ovc) (EdgeFn gva gvc)) (vc pvc1 gvb) (teq (EdgeFn sva svb) (EdgeFn pvb pvc)) (teq (EdgeFn svb svc) (EdgeFn bva bvb)) (vc bvb pvb),7,1
+s25,1,2:44,Rabbit,(vc pva2 sva) (unattached ot) (unattached gt) (unattached rt) (unattached bt),1,0
+s25,2,2:57,Rabbit,(vc pva2 sva) (vc svc ova) (unattached gt) (unattached rt) (unattached bt),1,1
+s25,3,3:06,Rabbit,(vc svc ova) (unattached gt) (unattached rt) (unattached bt) (unattached p),0,1
+s25,4,3:13,Rabbit,(vc svc ova) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (unattached rt) (unattached bt) (unattached p),1,1
+s25,5,3:19,Rabbit,(vc svc ova) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tei (EdgeFn rva rvc) (EdgeFn gva gvc)) (unattached bt) (unattached p),1,2
+s25,6,3:25,Rabbit,(vc svc ova) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tei (EdgeFn rva rvc) (EdgeFn gva gvc)) (teq (EdgeFn bva bvc) (EdgeFn rvb rvc)) (vc bvc gva) (unattached p),1,4
+s25,7,3:30,Rabbit,(vc svc ova) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tei (EdgeFn rva rvc) (EdgeFn gva gvc)) (teq (EdgeFn bva bvc) (EdgeFn rvb rvc)) (vc bvc gva) (vc pvc2 sva),2,4
+s25,8,3:52,Rabbit,(vc svc ova) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (teq (EdgeFn bva bvc) (EdgeFn rvb rvc)) (vc bvc gva) (vc pvc1 sva),3,3
+s25,9,4:24,Rabbit,(vc svc ova) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (teq (EdgeFn bva bvc) (EdgeFn rva rvb)) (vec bva (EdgeFn gva gvc)) (vc pvc1 sva) (unattached pt),6,0
+s25,10,5:12,Rabbit,(vc svc ova) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (teq (EdgeFn bva bvc) (EdgeFn rva rvb)) (vec bva (EdgeFn gva gvc)) (vc pvc1 sva) (to (EdgeFn pva pvc) (EdgeFn ova ovb) pva ovb) (vec gvc (EdgeFn pva pvc)),8,0
+s26,1,7:23,Cat,(vc svd ova) (to (EdgeFn pva1 pvd1) (EdgeFn svb svc) pva1 svb) (unattached gt) (unattached rt) (unattached bt),1,1
+s26,2,7:28,Cat,(vc svd ova) (to (EdgeFn pva1 pvd1) (EdgeFn svb svc) pva1 svb) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (vc svd rvc) (unattached gt) (unattached bt),3,1
+s26,3,7:36,Cat,(vc svd ova) (vec svb (EdgeFn pva1 pvd1)) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (vc svd rvc) (unattached gt) (unattached bt),3,1
+s26,4,7:42,Cat,(vc svd ova) (vec svb (EdgeFn pva1 pvd1)) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (vc svd rvc) (tovi (EdgeFn ovb ovc) (EdgeFn gva gvc) ovb gva) (unattached bt),4,1
+s26,5,7:50,Cat,(vc svd ova) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (vc svd rvc) (tovi (EdgeFn ovb ovc) (EdgeFn gva gvc) ovb gva) (tovi (EdgeFn svb svc) (EdgeFn pva1 pvd1) svb pva1) (unattached bt),4,1
+s26,6,7:59,Cat,(vc svd ova) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (vc svd rvc) (tovi (EdgeFn ovb ovc) (EdgeFn gva gvc) ovb gva) (vc pvc1 gvb) (unattached bt),5,0
+s26,7,8:04,Cat,(vc svd ova) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (vc svd rvc) (tovi (EdgeFn ovb ovc) (EdgeFn gva gvc) ovb gva) (vc pvc1 gvb) (vec svb (EdgeFn bva bvc)),5,1
+s26,8,8:21,Cat,(vc svd ova) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (vc svd rvc) (tovi (EdgeFn ovb ovc) (EdgeFn gva gvc) ovb gva) (vc pvc1 gvb) (tovi (EdgeFn svb svc) (EdgeFn bva bvc) svb bva),5,1
+s26,9,9:03,Cat,(vc svd ova) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (vc svd rvc) (tovi (EdgeFn ovb ovc) (EdgeFn gva gvc) ovb gva) (vc pvc1 gvb) (tovi (EdgeFn svb svc) (EdgeFn bva bvc) svb bva) (tovi (EdgeFn sva svb) (EdgeFn pva pvc) svb pvc),5,2
+s26,10,11:40,Cat,(vc svd ova) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (vc svd rvc) (tovi (EdgeFn ovb ovc) (EdgeFn gva gvc) ovb gva) (vc pvc1 gvb) (teq (EdgeFn svb svc) (EdgeFn bvb bvc)) (teq (EdgeFn sva svb) (EdgeFn pva pvb)),5,2
+s26,11,12:12,Cat,(vc svd ova) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (vc svd rvc) (tovi (EdgeFn ovb ovc) (EdgeFn gva gvc) ovb gva) (vc pvc1 gvb) (vc svc bvc) (vc sva pva) (vc bva pvc),5,3
+s26,12,12:31,Cat,(vc svd ova) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (vc svd rvc) (tovi (EdgeFn ovb ovc) (EdgeFn gva gvc) ovb gva) (vc pvc1 gvb) (vc svc bvc) (teq (EdgeFn sva svb) (EdgeFn pvb pvc)),6,1
+s26,13,12:39,Cat,(vc svd ova) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (vc svd rvc) (tovi (EdgeFn ovb ovc) (EdgeFn gva gvc) ovb gva) (vc pvc1 gvb) (teq (EdgeFn svb svc) (EdgeFn bva bvb)) (teq (EdgeFn sva svb) (EdgeFn pvb pvc)) (vc bvb pvb),8,0
+s27,1,2:32,Rabbit,(vc pvc1 sva) (unattached gt) (unattached ot) (unattached rt) (unattached bt),1,0
+s27,2,2:53,Rabbit,(vc pvc1 sva) (vc svc gva) (unattached ot) (unattached rt) (unattached bt),1,1
+s27,3,3:03,Rabbit,(vc pvc1 sva) (vc svc gva) (vc rvc gvb) (unattached ot) (unattached rt) (unattached bt),1,2
+s27,4,3:09,Rabbit,(vc pvc1 sva) (vc svc gva) (teq (EdgeFn rva rvc) (EdgeFn gvb gvc)) (unattached ot) (unattached bt),1,2
+s27,5,3:12,Rabbit,(vc pvc1 sva) (unattached gt) (unattached ot) (unattached rt) (unattached bt),1,0
+s27,6,3:30,Rabbit,(vc pvc1 sva) (vc svc gva) (unattached ot) (unattached rt) (unattached bt),1,1
+s27,7,3:43,Rabbit,(vc pvc1 sva) (vc svc gva) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (unattached rt) (unattached bt),2,1
+s27,8,3:59,Rabbit,(vc pvc1 sva) (vc svc gva) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (unattached bt),3,1
+s27,9,4:06,Rabbit,(vc pvc1 sva) (vc svc gva) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (to (EdgeFn bva bvc) (EdgeFn rva rvb) bva rvb),3,2
+s27,10,4:36,Rabbit,(vc pvc1 sva) (vc svc gva) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (to (EdgeFn bva bvc) (EdgeFn rva rvb) bva rvb) (to (EdgeFn pva pvc) (EdgeFn gva gvb) pva gvb) (vec ovc (EdgeFn pva pvc)),5,2
+s27,11,4:55,Rabbit,(vc svd gva) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (to (EdgeFn bva bvc) (EdgeFn rva rvb) bva rvb) (to (EdgeFn pva pvc) (EdgeFn gva gvb) pva gvb) (vec ovc (EdgeFn pva pvc)) (unattached p),5,1
+s27,12,4:59,Rabbit,(vc svd gva) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (to (EdgeFn bva bvc) (EdgeFn rva rvb) bva rvb) (to (EdgeFn pva pvc) (EdgeFn gva gvb) pva gvb) (vec ovc (EdgeFn pva pvc)) (vc pva1 sva),6,1
+s28,1,4:03,Cat,(vc pvc2 ovb) (unattached gt) (unattached rt) (tei (EdgeFn sva svb) (EdgeFn bva bvc)),1,1
+s28,2,4:10,Cat,(vc pvc2 ovb) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (unattached rt) (tei (EdgeFn sva svb) (EdgeFn bva bvc)),2,1
+s28,3,4:18,Cat,(vc pvc2 ovb) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (unattached rt) (unattached s) (unattached bt),2,0
+s28,4,4:21,Cat,(vc pvc2 ovb) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (unattached s) (unattached bt),3,0
+s28,5,4:25,Cat,(vc pvc2 ovb) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (vc svd gva) (vc svd rvc) (unattached bt),5,0
+s28,6,4:32,Cat,(vc pvc2 ovb) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (vc svd gva) (vc svd rvc) (teq (EdgeFn sva svb) (EdgeFn bvb bvc)) (unattached pt),6,0
+s28,7,5:23,Cat,(vc pvc2 ovb) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (vc svd gva) (vc svd rvc) (teq (EdgeFn sva svb) (EdgeFn bvb bvc)) (teq (EdgeFn svb svc) (EdgeFn pva pvb)) (vc bvb pvb),8,0
+s29,1,3:30,Rabbit,(to (EdgeFn ova ovc) (EdgeFn gva gvc) ova gva) (unattached rt) (unattached s) (unattached p) (unattached bt),0,1
+s29,2,3:40,Rabbit,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (unattached rt) (unattached s) (unattached p) (unattached bt),0,1
+s29,3,3:45,Rabbit,(teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (unattached rt) (unattached s) (unattached p) (unattached bt),0,1
+s29,4,3:59,Rabbit,(vc ova gvb) (unattached rt) (unattached s) (unattached p) (unattached bt),0,1
+s29,5,4:05,Rabbit,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (unattached rt) (unattached s) (unattached p) (unattached bt),0,1
+s29,6,4:11,Rabbit,(unattached gt) (unattached rt) (unattached s) (unattached p) (unattached bt),0,0
+s29,7,4:19,Rabbit,(tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (unattached ot) (unattached p) (unattached s) (unattached bt),1,0
+s29,8,4:30,Rabbit,(tovi (EdgeFn rvb rvc) (EdgeFn gva gvc) rvb gva) (unattached ot) (unattached p) (unattached s) (unattached bt),0,1
+s29,9,4:39,Rabbit,(tovi (EdgeFn rvb rvc) (EdgeFn gva gvc) rvb gva) (tei (EdgeFn bva bvc) (EdgeFn rva rvc)) (unattached ot) (unattached p) (unattached s),0,2
+s29,10,4:56,Rabbit,(tovi (EdgeFn rvb rvc) (EdgeFn gva gvc) rvb gva) (tei (EdgeFn bva bvc) (EdgeFn rva rvc)) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (unattached p) (unattached s),1,2
+s29,11,5:02,Rabbit,(tovi (EdgeFn rvb rvc) (EdgeFn gva gvc) rvb gva) (tei (EdgeFn bva bvc) (EdgeFn rva rvc)) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (vc svd ova) (unattached p),2,2
+s29,12,5:07,Rabbit,(tovi (EdgeFn rvb rvc) (EdgeFn gva gvc) rvb gva) (tei (EdgeFn bva bvc) (EdgeFn rva rvc)) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (vc svd ova) (vc pvc2 sva),3,2
+s29,13,5:33,Rabbit,(tovi (EdgeFn rvb rvc) (EdgeFn gva gvc) rvb gva) (to (EdgeFn bva bvc) (EdgeFn ova ovb) bva ovb) (vec gvc (EdgeFn bva bvc)) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (vc svd ova) (vc pvc2 sva),5,1
+s29,14,6:14,Rabbit,(tovi (EdgeFn rvb rvc) (EdgeFn gva gvc) rvb gva) (to (EdgeFn bva bvc) (EdgeFn ova ovb) bva ovb) (vec gvc (EdgeFn bva bvc)) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (vc svd ova) (vc pvc2 sva) (tei (EdgeFn pva pvc) (EdgeFn rva rvc)),5,2
+s29,15,6:27,Rabbit,(tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (to (EdgeFn bva bvc) (EdgeFn ova ovb) bva ovb) (vec gvc (EdgeFn bva bvc)) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (vc svd ova) (vc pvc2 sva) (teq (EdgeFn pva pvc) (EdgeFn rva rvb)) (vec pva (EdgeFn gva gvc)),8,0
+s31,1,2:56,Rabbit,(teq (EdgeFn ovb ovc) (EdgeFn gva gvb)) (unattached rt) (unattached s) (unattached p) (unattached bt),0,1
+s31,2,3:02,Rabbit,(teq (EdgeFn ovb ovc) (EdgeFn gva gvb)) (to (EdgeFn bva bvc) (EdgeFn ova ovb) bva ovb) (to (EdgeFn bva bvc) (EdgeFn gvb gvc) bvc gvb) (unattached rt) (unattached s) (unattached p),0,3
+s31,3,3:05,Rabbit,(teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (to (EdgeFn bva bvc) (EdgeFn ova ovb) bva ovb) (vec gvc (EdgeFn bva bvc)) (unattached rt) (unattached s) (unattached p),3,0
+s31,4,3:14,Rabbit,(teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (to (EdgeFn bva bvc) (EdgeFn ova ovb) bva ovb) (vec gvc (EdgeFn bva bvc)) (vc svd ova) (unattached rt) (unattached p),4,0
+s31,5,3:17,Rabbit,(teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (to (EdgeFn bva bvc) (EdgeFn ova ovb) bva ovb) (vec gvc (EdgeFn bva bvc)) (vc svd ova) (vc pva2 sva) (unattached rt),5,0
+s31,6,3:23,Rabbit,(teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (to (EdgeFn bva bvc) (EdgeFn ova ovb) bva ovb) (vec gvc (EdgeFn bva bvc)) (vc svd ova) (vc pva2 sva) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva),6,0
+s31,7,4:25,Rabbit,(teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (to (EdgeFn bva bvc) (EdgeFn ova ovb) bva ovb) (vec gvc (EdgeFn bva bvc)) (vc svd ova) (vc pva2 sva) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (teq (EdgeFn pva pvc) (EdgeFn rva rvb)) (vec pva (EdgeFn gva gvc)),8,0
+s32,1,4:47,Cat,(to (EdgeFn ova ovc) (EdgeFn gva gvc) ova gva) (unattached rt) (unattached s) (unattached p) (unattached bt),0,1
+s32,2,4:53,Cat,(to (EdgeFn ova ovc) (EdgeFn gva gvc) ova gva) (vc pvc2 gvc) (unattached rt) (unattached s) (unattached bt),0,2
+s32,3,4:58,Cat,(unattached gt) (unattached rt) (unattached s) (unattached p) (unattached bt),0,0
+s32,4,5:08,Cat,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (unattached rt) (unattached p) (unattached s) (unattached bt),1,0
+s32,5,5:10,Cat,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (vc pvc2 ovb) (unattached rt) (unattached s) (unattached bt),2,0
+s32,6,5:22,Cat,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (vc pvc2 ovb) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (unattached s) (unattached bt),3,0
+s32,7,5:27,Cat,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (vc pvc2 ovb) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (vec gva (EdgeFn svc svd)) (vec rvc (EdgeFn svc svd)) (unattached bt),3,2
+s32,8,5:35,Cat,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (vc pvc2 ovb) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (vc svd gva) (vc svd rvc) (unattached bt),5,0
+s32,9,5:39,Cat,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (vc pvc2 ovb) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (vc svd gva) (vc svd rvc) (teq (EdgeFn svb svc) (EdgeFn bvb bvc)),5,1
+s32,10,5:55,Cat,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (vc pvc2 ovb) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (vc svd gva) (vc svd rvc) (teq (EdgeFn svb svc) (EdgeFn bva bvb)),6,0
+s32,11,7:06,Cat,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (vc pvc2 ovb) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (vc svd gva) (vc svd rvc) (teq (EdgeFn svb svc) (EdgeFn bva bvb)) (teq (EdgeFn sva svb) (EdgeFn pvb pvc)) (vc bvb pvb),8,0
+s33,1,5:08,Rabbit,(vc sva pvc1) (unattached ot) (unattached gt) (unattached rt) (unattached bt),1,0
+s33,2,5:16,Rabbit,(vc sva pvc1) (vc svd ova) (unattached gt) (unattached rt) (unattached bt),2,0
+s33,3,5:26,Rabbit,(vc sva pvc1) (vc svd ova) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (unattached rt) (unattached bt),3,0
+s33,4,5:33,Rabbit,(vc sva pvc1) (vc svd ova) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (to (EdgeFn rva rvc) (EdgeFn ova ovb) rva ovb) (vec gvc (EdgeFn rva rvc)) (unattached bt),3,2
+s33,5,5:39,Rabbit,(vc sva pvc1) (vc svd ova) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (unattached rt) (unattached bt),3,0
+s33,6,5:45,Rabbit,(vc sva pvc1) (vc svd ova) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (unattached bt),4,0
+s33,7,5:51,Rabbit,(vc sva pvc1) (vc svd ova) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (to (EdgeFn bva bvc) (EdgeFn ova ovb) bva ovb) (vec gvc (EdgeFn bva bvc)),6,0
+s33,8,7:01,Rabbit,(vc sva pvc1) (vc svd ova) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (to (EdgeFn bva bvc) (EdgeFn ova ovb) bva ovb) (vec gvc (EdgeFn bva bvc)) (teq (EdgeFn pva pvc) (EdgeFn rva rvb)) (vec pva (EdgeFn gva gvc)),8,0
+s34,1,4:30,Cat,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tei (EdgeFn sva svb) (EdgeFn bva bvc)) (unattached rt) (unattached p),1,1
+s34,2,4:35,Cat,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tei (EdgeFn sva svb) (EdgeFn bva bvc)) (vc pva1 ovb) (unattached rt),2,1
+s34,3,4:40,Cat,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tei (EdgeFn sva svb) (EdgeFn bva bvc)) (vc pva1 ovb) (tei (EdgeFn rva rvc) (EdgeFn gva gvc)),2,2
+s34,4,4:45,Cat,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (vc pva1 ovb) (tei (EdgeFn rva rvc) (EdgeFn gva gvc)) (vc svc gva) (unattached bt),3,2
+s34,5,4:47,Cat,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (vc pva1 ovb) (tei (EdgeFn rva rvc) (EdgeFn gva gvc)) (vc svc gva) (tovi (EdgeFn sva svb) (EdgeFn bva bvc) svb bvc),3,3
+s34,6,5:51,Cat,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (vc pva1 ovb) (tei (EdgeFn rva rvc) (EdgeFn gva gvc)) (vc svc gva) (tovi (EdgeFn sva svb) (EdgeFn bva bvc) svb bvc) (tovi (EdgeFn sva svd) (EdgeFn pva pvc) sva pvc) (vec pvc (EdgeFn bva bvc)),3,4
+s34,7,5:58,Cat,(tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (vc pva1 ovb) (tei (EdgeFn rva rvc) (EdgeFn gva gvc)) (vc svd gva) (teq (EdgeFn svb svc) (EdgeFn bva bvb)) (teq (EdgeFn sva svb) (EdgeFn pvb pvc)) (vc bvb pvb),6,1
+s35,1,3:36,Rabbit,(teq (EdgeFn bva bvc) (EdgeFn rva rvb)) (unattached s) (unattached gt) (unattached ot) (unattached p),1,0
+s35,2,3:50,Rabbit,(teq (EdgeFn bva bvc) (EdgeFn rva rvb)) (teq (EdgeFn rva rvc) (EdgeFn gvb gvc)) (vc bva gvb) (unattached s) (unattached ot) (unattached p),1,2
+s35,3,4:03,Rabbit,(teq (EdgeFn bva bvc) (EdgeFn rva rvb)) (teq (EdgeFn rva rvc) (EdgeFn gva gvb)) (vc bva gva) (unattached s) (unattached ot) (unattached p),1,2
+s35,4,4:30,Rabbit,(teq (EdgeFn bva bvc) (EdgeFn rva rvb)) (teq (EdgeFn rva rvc) (EdgeFn gvb gvc)) (vc bva gvb) (unattached s) (unattached ot) (unattached p),1,2
+s35,5,4:44,Rabbit,(teq (EdgeFn bva bvc) (EdgeFn rva rvb)) (teq (EdgeFn rva rvc) (EdgeFn gvb gvc)) (vc bva gvb) (vc svd gva) (unattached ot) (unattached p),1,3
+s35,6,5:00,Rabbit,(teq (EdgeFn bva bvc) (EdgeFn rva rvb)) (teq (EdgeFn rva rvc) (EdgeFn gva gvb)) (vc bva gva) (unattached s) (unattached ot) (unattached p),1,2
+s35,7,5:09,Rabbit,(teq (EdgeFn bva bvc) (EdgeFn rva rvb)) (teq (EdgeFn rva rvc) (EdgeFn gva gvb)) (vc bva gva) (vc svd gvc) (unattached ot) (unattached p),1,3
+s35,8,5:17,Rabbit,(teq (EdgeFn bva bvc) (EdgeFn rva rvb)) (teq (EdgeFn rva rvc) (EdgeFn gva gvb)) (vc bva gva) (vc svd gvc) (vc pvc2 sva) (unattached ot),2,3
+s35,9,5:50,Rabbit,(vc svd gva) (vc pvc2 svd) (vc pvc2 gva) (unattached ot) (unattached rt) (unattached bt),1,2
+s35,10,5:54,Rabbit,(vc svd gva) (vc pvc2 sva) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (unattached rt) (unattached bt),3,0
+s35,11,6:04,Rabbit,(vc svd gva) (vc pvc2 sva) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (unattached bt),4,0
+s35,12,6:10,Rabbit,(vc svd gva) (vc pvc2 sva) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (to (EdgeFn bva bvc) (EdgeFn gva gvb) bva gvb) (vec ovc (EdgeFn bva bvc)),6,0
+s35,13,6:40,Rabbit,(vc svd gva) (vc pvc2 sva) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (to (EdgeFn rva rvc) (EdgeFn gva gvb) rva gvc) (vec ovc (EdgeFn rva rvc)) (unattached bt),3,2
+s35,14,6:49,Rabbit,(vc svd gva) (vc pvc2 sva) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (to (EdgeFn rva rvc) (EdgeFn gva gvb) rva gvc) (vec ovc (EdgeFn rva rvc)) (tovi (EdgeFn bva bvc) (EdgeFn ova ovc) bvc ova),3,3
+s35,15,6:56,Rabbit,(vc svd gva) (vc pvc2 sva) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (unattached bt),3,1
+s35,16,7:00,Rabbit,(vc svd gva) (vc pvc2 sva) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (tovi (EdgeFn bva bvc) (EdgeFn gva gvb) bvc gvb),4,1
+s35,17,8:05,Rabbit,(vc svd gva) (vc pvc2 sva) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rvb rvc) (EdgeFn ova ovc) rvc ova) (tovi (EdgeFn bva bvc) (EdgeFn gva gvb) bva gvb),3,2
+s35,18,8:10,Rabbit,(vc svd gva) (vc pvc2 sva) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rvb rvc) (EdgeFn ova ovc) rvc ova) (tovi (EdgeFn bva bvc) (EdgeFn gva gvb) bva gvb) (tovi (EdgeFn pva pvc) (EdgeFn rva rvc) pvc rva),3,3
+s35,19,8:30,Rabbit,(vc svd gva) (vc pvc2 sva) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rva ova) (tovi (EdgeFn bva bvc) (EdgeFn gva gvb) bvc gvb) (unattached pt),4,1
+s35,20,8:34,Rabbit,(vc svd gva) (vc pvc2 sva) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rva ova) (tovi (EdgeFn bva bvc) (EdgeFn gva gvb) bvc gvb) (teq (EdgeFn pva pvc) (EdgeFn rva rvc)) (vec pva (EdgeFn ova ovc)),5,1
+s36,1,5:50,Cat,(tei (EdgeFn sva svb) (EdgeFn bva bvc)) (unattached ot) (unattached gt) (unattached rt) (unattached p),0,1
+s36,2,6:02,Cat,(teq (EdgeFn sva svb) (EdgeFn bvb bvc)) (tovi (EdgeFn svb svc) (EdgeFn rva rvb) svc rva) (to (EdgeFn bva bvb) (EdgeFn rva rvb) bvb rvb) (unattached gt) (unattached ot) (unattached p),1,2
+s36,3,6:21,Cat,(teq (EdgeFn sva svb) (EdgeFn bvb bvc)) (tovi (EdgeFn svb svc) (EdgeFn rva rvb) svc rva) (to (EdgeFn bva bvb) (EdgeFn rva rvb) bvb rvb) (vc svd gva) (unattached ot) (unattached p),2,2
+s36,4,6:30,Cat,(teq (EdgeFn sva svb) (EdgeFn bvb bvc)) (tovi (EdgeFn svb svc) (EdgeFn rva rvb) svc rva) (to (EdgeFn bva bvb) (EdgeFn rva rvb) bvb rvb) (vc svd gva) (tei (EdgeFn pva2 pvd2) (EdgeFn gva gvc)) (unattached ot),2,3
+s36,5,6:35,Cat,(teq (EdgeFn sva svb) (EdgeFn bvb bvc)) (tovi (EdgeFn svb svc) (EdgeFn rva rvb) svc rva) (to (EdgeFn bva bvb) (EdgeFn rva rvb) bvb rvb) (vc svd gva) (unattached ot) (unattached p),2,2
+s36,6,6:40,Cat,(teq (EdgeFn sva svb) (EdgeFn bvb bvc)) (tovi (EdgeFn svb svc) (EdgeFn rva rvb) svc rva) (to (EdgeFn bva bvb) (EdgeFn rva rvb) bvb rvb) (vc svd gva) (teq (EdgeFn ova ovc) (EdgeFn gva gvc)) (vc svd ovc) (unattached p),2,4
+s36,7,6:46,Cat,(teq (EdgeFn sva svb) (EdgeFn bvb bvc)) (tovi (EdgeFn svb svc) (EdgeFn rva rvb) svc rva) (to (EdgeFn bva bvb) (EdgeFn rva rvb) bvb rvb) (vc svd gva) (teq (EdgeFn ova ovc) (EdgeFn gva gvc)) (vc svd ovc) (tovi (EdgeFn pvc2 pvd2) (EdgeFn gvb gvc) pvd2 gvb),2,5
+s36,8,6:53,Cat,(tovi (EdgeFn svb svc) (EdgeFn rva rvb) svc rva) (vc svd gva) (tovi (EdgeFn pvc2 pvd2) (EdgeFn gvb gvc) pvb2 gvb) (unattached ot) (unattached bt),1,2
+s36,9,6:57,Cat,(tovi (EdgeFn svb svc) (EdgeFn rva rvb) svc rva) (vc svd gva) (tovi (EdgeFn pvc2 pvd2) (EdgeFn gvb gvc) pvb2 gvb) (tei (EdgeFn bva bvc) (EdgeFn gva gvc)) (unattached ot),1,3
+s36,10,7:03,Cat,(tovi (EdgeFn svb svc) (EdgeFn rva rvb) svc rva) (vc svd gva) (tovi (EdgeFn pvc2 pvd2) (EdgeFn gvb gvc) pvb2 gvb) (tei (EdgeFn bva bvc) (EdgeFn gva gvc)) (tovi (EdgeFn sva svb) (EdgeFn ovb ovc) sva ovc) (to (EdgeFn rva rvb) (EdgeFn ovb ovc) rvb ovb),1,5
+s36,11,7:10,Cat,(tovi (EdgeFn svb svc) (EdgeFn rva rvb) svc rva) (vc svd gva) (tovi (EdgeFn pvc2 pvd2) (EdgeFn gvb gvc) pvb2 gvb) (tei (EdgeFn bva bvc) (EdgeFn gva gvc)) (tovi (EdgeFn sva svb) (EdgeFn ovb ovc) sva ovc) (vc rvb ovb),1,5
+s36,12,7:16,Cat,(tovi (EdgeFn svb svc) (EdgeFn rva rvb) svc rva) (vc svd gva) (unattached p) (unattached ot) (unattached bt),1,1
+s36,13,7:27,Cat,(vc svd gva) (tei (EdgeFn rva rvc) (EdgeFn gva gvc)) (unattached p) (unattached ot) (unattached bt),1,1
+s36,14,7:35,Cat,(vc svd gva) (tei (EdgeFn rva rvc) (EdgeFn gva gvc)) (tovi (EdgeFn svb svc) (EdgeFn ova ovb) svc ova) (tovi (EdgeFn bva bvb) (EdgeFn ova ovb) bva ovb) (teq (EdgeFn sva svb) (EdgeFn bvb bvc)) (unattached p),2,3
+s36,15,7:37,Cat,(vc svd gva) (tei (EdgeFn rva rvc) (EdgeFn gva gvc)) (tovi (EdgeFn svb svc) (EdgeFn ova ovb) svc ova) (tovi (EdgeFn bva bvb) (EdgeFn ova ovb) bva ovb) (teq (EdgeFn sva svb) (EdgeFn bvb bvc)) (vc pvc2 gvb),2,4
+s36,16,7:52,Cat,(vc svd gva) (teq (EdgeFn sva svb) (EdgeFn bvb bvc)) (teq (EdgeFn ova ovc) (EdgeFn gva gvc)) (vc pvc2 gvb) (unattached rt),2,2
+s36,17,8:05,Cat,(vc svd gva) (teq (EdgeFn sva svb) (EdgeFn bvb bvc)) (tei (EdgeFn ova ovb) (EdgeFn gva gvc)) (unattached p) (unattached rt),2,1
+s36,18,8:22,Cat,(vc svd gva) (teq (EdgeFn sva svb) (EdgeFn bvb bvc)) (tei (EdgeFn ova ovb) (EdgeFn gva gvc)) (tovi (EdgeFn svb svc) (EdgeFn rva rvb) svc rva) (to (EdgeFn bva bvb) (EdgeFn rva rvb) bvb rvb) (unattached p),2,3
+s36,19,8:40,Cat,(vc svd gva) (tovi (EdgeFn rva rvb) (EdgeFn svb svc) rva svc) (to (EdgeFn bva bvb) (EdgeFn rva rvb) bvb rvb) (teq (EdgeFn sva svb) (EdgeFn bvb bvc)) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ovb) (unattached p),2,3
+s36,20,8:46,Cat,(vc svd gva) (teq (EdgeFn sva svb) (EdgeFn bvb bvc)) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ovb) (tei (EdgeFn rva rvc) (EdgeFn gva gvc)) (unattached p),2,2
+s36,21,8:51,Cat,(vc svd gva) (teq (EdgeFn sva svb) (EdgeFn bvb bvc)) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tei (EdgeFn rva rvc) (EdgeFn gva gvc)) (teq (EdgeFn pvc2 pvd2) (EdgeFn svb svc)),2,3
+s36,22,9:01,Cat,(vc svd gva) (teq (EdgeFn sva svb) (EdgeFn bvb bvc)) (teq (EdgeFn pvc2 pvd2) (EdgeFn svb svc)) (unattached ot) (unattached rt),2,1
+s36,23,9:52,Cat,(vc svd gva) (teq (EdgeFn sva svb) (EdgeFn bvb bvc)) (teq (EdgeFn svb svc) (EdgeFn pva pvb)) (vc bvb pvb) (unattached ot) (unattached rt) (unattached p),4,0
+s36,24,10:00,Cat,(vc svd gva) (teq (EdgeFn sva svb) (EdgeFn bvb bvc)) (teq (EdgeFn svb svc) (EdgeFn pva pvb)) (vc bvb pvb) (tovi (EdgeFn pvc2 pvd2) (EdgeFn gva gvc) pvc2 gva) (unattached ot) (unattached rt),4,1
+s36,25,10:04,Cat,(vc svd gva) (teq (EdgeFn sva svb) (EdgeFn bvb bvc)) (teq (EdgeFn svb svc) (EdgeFn pva pvb)) (vc bvb pvb) (vc pvc2 gvb) (unattached ot) (unattached rt),4,1
+s36,26,10:09,Cat,(vc svd gva) (teq (EdgeFn sva svb) (EdgeFn bvb bvc)) (teq (EdgeFn svb svc) (EdgeFn pva pvb)) (vc bvb pvb) (vc pvc2 gvc) (unattached ot) (unattached rt),4,1
+s36,27,10:17,Cat,(vc svd gva) (teq (EdgeFn sva svb) (EdgeFn bvb bvc)) (teq (EdgeFn svb svc) (EdgeFn pva pvb)) (vc bvb pvb) (vc pvc2 gvc) (to (EdgeFn ova ovc) (EdgeFn gva gvc) ovc gvc) (unattached rt),4,2
+s36,28,10:24,Cat,(vc svd gva) (teq (EdgeFn sva svb) (EdgeFn bvb bvc)) (teq (EdgeFn svb svc) (EdgeFn pva pvb)) (vc bvb pvb) (vc pvc2 gvc) (unattached ot) (unattached rt),4,1
+s36,29,10:31,Cat,(vc svd gva) (teq (EdgeFn sva svb) (EdgeFn bvb bvc)) (teq (EdgeFn svb svc) (EdgeFn pva pvb)) (vc bvb pvb) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvc ovc) (unattached rt) (unattached p),4,1
+s36,30,10:38,Cat,(vc svd gva) (teq (EdgeFn sva svb) (EdgeFn bvb bvc)) (teq (EdgeFn svb svc) (EdgeFn pva pvb)) (vc bvb pvb) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvc ovc) (tei (EdgeFn rva rvc) (EdgeFn gva gvc)) (unattached p),4,2
+s36,31,10:43,Cat,(vc svd gva) (teq (EdgeFn sva svb) (EdgeFn bvb bvc)) (teq (EdgeFn svb svc) (EdgeFn pva pvb)) (vc bvb pvb) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvc ovc) (tei (EdgeFn rva rvc) (EdgeFn gva gvc)) (vc pvc2 ovb),5,2
+s36,32,11:08,Cat,(vc svd gva) (teq (EdgeFn sva svb) (EdgeFn bvb bvc)) (teq (EdgeFn svb svc) (EdgeFn pva pvb)) (vc bvb pvb) (tovi (EdgeFn gvb gvc) (EdgeFn ova ovc) gvb ova) (tei (EdgeFn rva rvc) (EdgeFn gva gvc)) (vc pvc2 ovb),6,1
+s37,1,10:56,Rabbit,(unattached ot) (unattached p) (unattached s) (unattached rt) (tovi (EdgeFn bva bvc) (EdgeFn gva gvb) bvc gvb),0,1
+s37,2,11:00,Rabbit,(to (EdgeFn bva bvc) (EdgeFn gva gvb) bvc gvb) (unattached ot) (unattached p) (unattached s) (unattached rt),1,0
+s37,3,11:07,Rabbit,(vc sva pvc1) (unattached ot) (unattached rt) (to (EdgeFn bva bvc) (EdgeFn gva gvb) bvc gvb),2,0
+s37,4,11:14,Rabbit,(vc sva pvc1) (unattached ot) (unattached rt) (unattached gt) (unattached bt),1,0
+s37,5,11:21,Rabbit,(vc sva pvc1) (teq (EdgeFn bva bvc) (EdgeFn rva rvb)) (unattached ot) (unattached gt),2,0
+s37,6,11:29,Rabbit,(vc sva pvc1) (teq (EdgeFn bva bvc) (EdgeFn rva rvb)) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (unattached ot) (vec bva (EdgeFn gva gvc)),4,0
+s37,7,11:31,Rabbit,(teq (EdgeFn bva bvc) (EdgeFn rva rvb)) (vec bva (EdgeFn gva gvc)) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (unattached ot) (unattached s) (unattached p),3,0
+s37,8,11:40,Rabbit,(teq (EdgeFn bva bvc) (EdgeFn rva rvb)) (vec bva (EdgeFn gva gvc)) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (teq (EdgeFn ova ovb) (EdgeFn gvb gvc)) (unattached s) (unattached p),3,1
+s37,9,12:14,Rabbit,(teq (EdgeFn bva bvc) (EdgeFn rva rvb)) (vec bva (EdgeFn gva gvc)) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (unattached s) (unattached p),4,0
+s37,10,12:16,Rabbit,(teq (EdgeFn bva bvc) (EdgeFn rva rvb)) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (to (EdgeFn pva pvc) (EdgeFn ova ovb) pva ovb) (vec gvc (EdgeFn pva pvc)) (unattached s) (vec bva (EdgeFn gva gvc)) (unattached p),6,0
+s37,11,12:22,Rabbit,(teq (EdgeFn bva bvc) (EdgeFn rva rvb)) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (to (EdgeFn pva pvc) (EdgeFn ova ovb) pva ovb) (vec gvc (EdgeFn pva pvc)) (vc svd ova) (vec bva (EdgeFn gva gvc)) (unattached p),7,0
+s37,12,12:26,Rabbit,(teq (EdgeFn bva bvc) (EdgeFn rva rvb)) (tovi (EdgeFn rva rvc) (EdgeFn gva gvc) rvc gva) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (to (EdgeFn pva pvc) (EdgeFn ova ovb) pva ovb) (vec gvc (EdgeFn pva pvc)) (vc svd ova) (vc pvc2 sva) (vec bva (EdgeFn gva gvc)),8,0
+s39,1,2:45,Rabbit,(vc sva pva2) (unattached gt) (unattached ot) (unattached rt) (unattached bt),1,0
+s39,2,3:01,Rabbit,(vc sva pva2) (vc svd gva) (unattached ot) (unattached rt) (unattached bt),2,0
+s39,3,3:06,Rabbit,(vc sva pva2) (vc svd gva) (to (EdgeFn bva bvc) (EdgeFn gva gvb) bva gvb) (unattached ot) (unattached rt),3,0
+s39,4,3:22,Rabbit,(vc sva pva2) (vc svd gva) (to (EdgeFn bva bvc) (EdgeFn gva gvb) bva gvb) (to (EdgeFn bva bvc) (EdgeFn ovb ovc) bvc ovb) (teq (EdgeFn ova ovb) (EdgeFn gvb gvc)) (unattached rt),3,2
+s39,5,3:47,Rabbit,(vc sva pva2) (vec gva (EdgeFn svc svd)) (to (EdgeFn bva bvc) (EdgeFn gva gvb) bva gvb) (to (EdgeFn bva bvc) (EdgeFn ovb ovc) bvc ovb) (teq (EdgeFn ova ovb) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvb) (EdgeFn ovb ovc) rva ovb) (unattached rt),3,3
+s39,6,4:00,Rabbit,(vc sva pva2) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (unattached rt) (vc svd gva) (to (EdgeFn bva bvc) (EdgeFn gva gvb) bva gvb) (vec ovc (EdgeFn bva bvc)),5,0
+s39,7,4:06,Rabbit,(vc sva pva2) (vc svd gva) (to (EdgeFn bva bvc) (EdgeFn gva gvb) bva gvb) (vec ovc (EdgeFn bva bvc)) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvb) (EdgeFn ova ovc) rva ova),5,1
+s39,8,4:18,Rabbit,(vc sva pva2) (vc svd gva) (to (EdgeFn bva bvc) (EdgeFn gva gvb) bva gvb) (vec ovc (EdgeFn bva bvc)) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rvb rvc) (EdgeFn ova ovc) rvb ova),5,1
+s39,9,4:34,Rabbit,(vc sva pva2) (vc svd gva) (to (EdgeFn bva bvc) (EdgeFn gva gvb) bva gvb) (vec ovc (EdgeFn bva bvc)) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova),5,0
+s39,10,6:17,Rabbit,(vc sva pva2) (vc svd gva) (to (EdgeFn bva bvc) (EdgeFn gva gvb) bva gvb) (vec ovc (EdgeFn bva bvc)) (teq (EdgeFn ovb ovc) (EdgeFn gvb gvc)) (tovi (EdgeFn rva rvc) (EdgeFn ova ovc) rvc ova) (teq (EdgeFn pva pvc) (EdgeFn rva rvb)) (vec pva (EdgeFn ova ovc)),8,0
